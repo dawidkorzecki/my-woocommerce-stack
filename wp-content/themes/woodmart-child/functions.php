@@ -103,10 +103,10 @@ add_action( 'wmsc_step_content_shipping_modified', 'wmsc_step_content_shipping_m
 if ( ! function_exists( 'wpmc_modify_shipping_step' ) ) {
 
     function wpmc_modify_shipping_step( $steps ) {
+		// add checking for united options
         $steps['billing']['sections'] = array( 'billing', 'shipping_modified' );
-		//echo '<pre>'; var_dump($steps); echo '</pre>';
-        return $steps;
+		// echo '<pre>'; var_dump($steps); echo '</pre>';
+		        return $steps;
     }
 }
 add_filter( 'wpmc_modify_steps', 'wpmc_modify_shipping_step' );
-

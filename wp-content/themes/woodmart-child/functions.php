@@ -34,7 +34,6 @@ function bt_add_checkout_checkbox() {
 	 ));
 }
 
-
 /**
  * Alert if checkbox not checked
  */ 
@@ -50,8 +49,6 @@ function bt_add_checkout_checkbox_warning() {
         wc_add_notice( __( 'Musisz zaakceptować zgodę na przetwarzanie moich danych osobowych' ), 'error' );
     }
 }
-
-
 
 /**
  * Add custom field as order meta with field value to database
@@ -89,7 +86,6 @@ function bt_checkout_field_display_admin_order_meta($order){
 	}
 }
 
-
 if ( ! function_exists( 'wmsc_step_content_shipping_modified' ) ) {
 
 	/**
@@ -107,7 +103,8 @@ add_action( 'wmsc_step_content_shipping_modified', 'wmsc_step_content_shipping_m
 if ( ! function_exists( 'wpmc_modify_shipping_step' ) ) {
 
     function wpmc_modify_shipping_step( $steps ) {
-        $steps['shipping']['sections'] = array( 'shipping_modified' );
+        $steps['billing']['sections'] = array( 'billing', 'shipping_modified' );
+		//echo '<pre>'; var_dump($steps); echo '</pre>';
         return $steps;
     }
 }

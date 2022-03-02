@@ -1,0 +1,58 @@
+{
+    "text-font": {
+        "font-family": "Inter",
+        "font-weight": "400",
+        "font-size": "16"
+    },
+    "primary-font": {
+        "font-family": "Kumbh Sans",
+        "font-weight": "700"
+    },
+    "post-titles-font": {
+        "font-family": "Kumbh Sans",
+        "font-weight": "700"
+    },
+    "widget-titles-font": {
+        "font-family": "Kumbh Sans",
+        "font-weight": "700"
+    },
+    "navigation-font": {
+        "font-family": "Kumbh Sans",
+        "font-weight": "700"
+    },
+    "primary-color": "#f5b332",
+    "btns_shop_bg": "#f5b332",
+    "btns_shop_bg_hover": "#dfa32e",
+    "btns_accent_bg": "#f5b332",
+    "btns_accent_bg_hover": "#dfa32e",
+    "footer-bar-bg": {
+        "background-color": "#101010",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center",
+        "background-image": ""
+    },
+    "footer-style": "light",
+    "pages-background": {
+        "background-color": "#faf7f4",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "secondary-font": {
+        "font-family": "Kumbh Sans",
+        "font-weight": "700"
+    },
+    "footer-layout": "1",
+    "disable_copyrights": "0",
+    "prefooter_area": "",
+    "sticky_toolbar": "0"
+}

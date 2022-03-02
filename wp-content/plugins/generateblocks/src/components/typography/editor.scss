@@ -1,0 +1,54 @@
+.edit-post-settings-sidebar__panel-block .components-panel__body .components-base-control.gblocks-font-family-shortcuts {
+    margin-bottom: 2px;
+}
+
+.components-gblocks-typography-control__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.components-gblocks-typography-control__inputs + .components-gblocks-typography-control__header {
+    margin-top: 25px;
+}
+
+.components-gblocks-typography-control__inputs {
+    display: flex;
+    justify-content: space-between;
+
+	button.components-button {
+	    line-height: unset;
+	    height: unset;
+	}
+
+	.components-base-control {
+		margin-bottom: 0;
+	}
+}
+
+.edit-post-settings-sidebar__panel-block .components-panel__body .components-gblocks-typography-control__inputs .components-base-control,
+.components-gblocks-typography-control__inputs .components-base-control .components-base-control__field {
+    margin-bottom: 0;
+}
+
+.components-gblocks-typography-weight-transform {
+    display: flex;
+    justify-content: space-between;
+}
+
+.components-gblocks-typography-weight-transform > div {
+    width: 48%;
+}
+
+.components-gblocks-typography-control__units > .components-button-group .components-button.is-button:first-child:last-child {
+    border-radius: 3px;
+}
+
+.components-gblocks-typography-control__inputs button {
+    margin-left: 10px;
+}
+
+.components-gblocks-typography-control__inputs .components-base-control {
+    flex-grow: 1;
+}

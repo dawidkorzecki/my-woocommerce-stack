@@ -1,0 +1,58 @@
+{
+    "text-font": {
+        "font-family": "Inter",
+        "font-weight": "400",
+        "font-size": "16"
+    },
+    "primary-font": {
+        "font-family": "Roboto",
+        "font-weight": "700"
+    },
+    "post-titles-font": {
+        "font-family": "Roboto",
+        "font-weight": "700"
+    },
+    "widget-titles-font": {
+        "font-family": "Roboto",
+        "font-weight": "700"
+    },
+    "navigation-font": {
+        "font-family": "Roboto",
+        "font-weight": "500"
+    },
+    "primary-color": "#1a3d97",
+    "btns_shop_bg": "#1a3d97",
+    "btns_shop_bg_hover": "#183889",
+    "btns_accent_bg": "#1a3d97",
+    "btns_accent_bg_hover": "#183889",
+    "footer-bar-bg": {
+        "background-color": "#101010",
+        "background-repeat": "",
+        "background-size": "cover",
+        "background-position": "center",
+        "background-image": ""
+    },
+    "footer-style": "light",
+    "pages-background": {
+        "background-color": "#f4f3f2",
+        "background-repeat": "",
+        "background-size": "",
+        "background-attachment": "",
+        "background-position": "",
+        "background-image": "",
+        "media": {
+            "id": "",
+            "height": "",
+            "width": "",
+            "thumbnail": ""
+        }
+    },
+    "sticky_toolbar": "0",
+    "secondary-font": {
+        "font-family": "Roboto",
+        "font-weight": "500"
+    },
+    "footer-layout": "1",
+    "disable_copyrights": "0",
+    "prefooter_area": ""
+}

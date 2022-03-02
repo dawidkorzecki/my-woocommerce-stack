@@ -1,0 +1,118 @@
+// ------------------------------------------------------------------------------------------------
+// XTS BUTTONS SET
+// ------------------------------------------------------------------------------------------------
+
+.xts-buttons-control {
+
+	&:not(.xts-images-set) {
+
+		.xts-btns-set-active {
+			@extend %xts-button-alternative;
+			cursor: default;
+			user-select: none;
+		}
+	}
+}
+
+.xts-btns-set {
+	display: flex;
+}
+
+.xts-set-btn {
+	@extend %xts-button;
+	@extend %xts-buttons-side-rounded;
+}
+
+// ------------------------------------------
+// XTS HTML BLOCK SELECT CONTROL
+// ------------------------------------------
+
+.xts-html-block-switch {
+	margin-bottom: 0;
+
+	> div {
+		border-bottom: 0;
+	}
+
+	+ div,
+	+ div + div {
+
+		.xts-option-control {
+
+			> * {
+				margin-left: 30%;
+			}
+
+			textarea {
+				width: 70%;
+			}
+		}
+	}
+
+	.rtl & {
+
+		+ div,
+		+ div + div {
+	
+			.xts-option-control {
+	
+				> * {
+					margin-left: 0;
+					margin-right: 30%;
+				}
+			}
+		}
+	}
+}
+
+.xts-edit-block-link {
+	display: block;
+
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+
+// ------------------------------------------------------------------------------------------------
+// RESPONSIVE
+// ------------------------------------------------------------------------------------------------
+
+// ------------------------------------------
+// MEDIA 1024 AND DOWN
+// ------------------------------------------
+
+@mixin R-MD-DOWN__elements__buttons-set {
+
+	.xts-html-block-switch {
+	
+		+ div,
+		+ div + div {
+	
+			.xts-option-control {
+	
+				> * {
+					margin-left: 0;
+				}
+	
+				textarea {
+					width: 100%
+				}
+			}
+		}
+
+		.rtl & {
+
+			+ div,
+			+ div + div {
+		
+				.xts-option-control {
+		
+					> * {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+}

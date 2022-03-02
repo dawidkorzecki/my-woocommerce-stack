@@ -1,0 +1,140 @@
+# Copyright (C) 2017 Multi-Step Checkout for WooCommerce
+# This file is distributed under the same license as the Multi-Step Checkout for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Multi-Step Checkout for WooCommerce 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-multi-step-"
+"checkout\n"
+"POT-Creation-Date: 2017-12-05 16:29:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-12-05 21:40+0100\n"
+"Last-Translator: Diana Burduja <diana@wootips.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.6.10\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#: includes/admin-side.php:18
+msgid "Main color"
+msgstr "Die Hauptfarbe"
+
+#: includes/admin-side.php:19
+msgid "Show the \"Back to Cart\" button"
+msgstr "\"Zurück zum Warenkorb\" Button anzeigen"
+
+#: includes/admin-side.php:20
+msgid "Show the Shipping step"
+msgstr "Den Schritt \"Versand\" anzeigen"
+
+#: includes/admin-side.php:21
+msgid "Show the Billing and the Shipping steps together"
+msgstr "Die Schritte \"Rechnung\" und \"Versand\" kombiniert anzeigen"
+
+#: includes/admin-side.php:22
+msgid "Show the Order and the Payment steps together"
+msgstr "Die Schritte \"Bestellung\" und \"Zahlung\" kombiniert anzeigen"
+
+#. Plugin Name of the plugin/theme
+#: includes/admin-side.php:94
+msgid "Multi-Step Checkout for WooCommerce"
+msgstr "Multi-Step Checkout for WooCommerce"
+
+#: includes/form-buttons.php:10
+msgctxt "Frontend: button label"
+msgid "Back to cart"
+msgstr "Zurück zum Warenkorb"
+
+#: includes/form-buttons.php:14
+msgctxt "Frontend: button label"
+msgid "Previous"
+msgstr "Zurück"
+
+#: includes/form-buttons.php:15
+msgctxt "Frontend: button label"
+msgid "Next"
+msgstr "Weiter"
+
+#: includes/form-buttons.php:16
+msgctxt "Frontend: button label"
+msgid "Skip Login"
+msgstr "Login überspringen"
+
+#: includes/form-checkout.php:52
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+"Wenn du schon einmal bei uns bestellt hast, gib bitte deinen Benutzernamen "
+"bzw. E-Mail und dein Passwort ein. Falls du das erste mal bestellst, fülle "
+"bitte die Zahlungs- und Versandangaben unten aus."
+
+#: includes/form-checkout.php:61
+msgid "You must be logged in to checkout."
+msgstr "Bitte melde dich an, um die Bestellung abzuschließen."
+
+#: includes/form-checkout.php:92
+msgid "Your order"
+msgstr "Deine Bestellung"
+
+#: includes/form-checkout.php:98 includes/form-tabs.php:26
+msgid "Payment"
+msgstr "Zahlung"
+
+#: includes/form-tabs.php:10
+msgid "Login"
+msgstr "Login"
+
+#: includes/form-tabs.php:14
+msgid "Billing"
+msgstr "Rechnung"
+
+#: includes/form-tabs.php:18
+msgid "Shipping"
+msgstr "Versand"
+
+#: includes/form-tabs.php:22
+msgid "Order"
+msgstr "Bestellung"
+
+#: includes/form-tabs.php:34
+msgid "Billing & Shipping"
+msgstr "Rechnung & Versand"
+
+#: includes/form-tabs.php:38
+msgid "Order & Payment"
+msgstr "Bestellung & Zahlung"
+
+#: wp-multi-step-checkout.php:56 wp-multi-step-checkout.php:63
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#: wp-multi-step-checkout.php:210
+msgid ""
+"The WP Multi-Step Checkout plugin is enabled, but it requires WooCommerce in "
+"order to work."
+msgstr ""
+"Das WP Multi-Step Checkout Plugin is aktiviert, aber es benötigt WooCommerce "
+"um zu funktionieren."
+
+#: wp-multi-step-checkout.php:232
+msgid "Settings"
+msgstr "Einstellungen"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-multi-step-checkout/"
+msgstr "https://wordpress.org/plugins/wp-multi-step-checkout/"
+
+#. Description of the plugin/theme
+msgid "Nice multi-step checkout for your WooCommerce store"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SilkyPress"
+msgstr "SilkyPress"
+
+#. Author URI of the plugin/theme
+msgid "https://www.silkypress.com"
+msgstr "https://www.silkypress.com"

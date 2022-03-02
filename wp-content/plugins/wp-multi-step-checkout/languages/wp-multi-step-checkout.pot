@@ -1,0 +1,133 @@
+# Copyright (C) 2017 Multi-Step Checkout for WooCommerce
+# This file is distributed under the same license as the Multi-Step Checkout for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Multi-Step Checkout for WooCommerce 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-multi-step-"
+"checkout\n"
+"POT-Creation-Date: 2017-12-05 16:29:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/admin-side.php:18
+msgid "Main color"
+msgstr ""
+
+#: includes/admin-side.php:19
+msgid "Show the \"Back to Cart\" button"
+msgstr ""
+
+#: includes/admin-side.php:20
+msgid "Show the Shipping step"
+msgstr ""
+
+#: includes/admin-side.php:21
+msgid "Show the Billing and the Shipping steps together"
+msgstr ""
+
+#: includes/admin-side.php:22
+msgid "Show the Order and the Payment steps together"
+msgstr ""
+
+#. #-#-#-#-#  wp-multi-step-checkout.pot (Multi-Step Checkout for WooCommerce 1.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/admin-side.php:94
+msgid "Multi-Step Checkout for WooCommerce"
+msgstr ""
+
+#: includes/form-buttons.php:10
+msgctxt "Frontend: button label"
+msgid "Back to cart"
+msgstr ""
+
+#: includes/form-buttons.php:14
+msgctxt "Frontend: button label"
+msgid "Previous"
+msgstr ""
+
+#: includes/form-buttons.php:15
+msgctxt "Frontend: button label"
+msgid "Next"
+msgstr ""
+
+#: includes/form-buttons.php:16
+msgctxt "Frontend: button label"
+msgid "Skip Login"
+msgstr ""
+
+#: includes/form-checkout.php:52
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: includes/form-checkout.php:61
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: includes/form-checkout.php:92
+msgid "Your order"
+msgstr ""
+
+#: includes/form-checkout.php:98 includes/form-tabs.php:26
+msgid "Payment"
+msgstr ""
+
+#: includes/form-tabs.php:10
+msgid "Login"
+msgstr ""
+
+#: includes/form-tabs.php:14
+msgid "Billing"
+msgstr ""
+
+#: includes/form-tabs.php:18
+msgid "Shipping"
+msgstr ""
+
+#: includes/form-tabs.php:22
+msgid "Order"
+msgstr ""
+
+#: includes/form-tabs.php:34
+msgid "Billing & Shipping"
+msgstr ""
+
+#: includes/form-tabs.php:38
+msgid "Order & Payment"
+msgstr ""
+
+#: wp-multi-step-checkout.php:56 wp-multi-step-checkout.php:63
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: wp-multi-step-checkout.php:210
+msgid ""
+"The WP Multi-Step Checkout plugin is enabled, but it requires WooCommerce in "
+"order to work."
+msgstr ""
+
+#: wp-multi-step-checkout.php:232
+msgid "Settings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-multi-step-checkout/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Nice multi-step checkout for your WooCommerce store"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SilkyPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.silkypress.com"
+msgstr ""

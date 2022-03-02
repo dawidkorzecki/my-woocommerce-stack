@@ -1,0 +1,104 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+body.gutenberg-editor-page [data-type="generateblocks/container"] .editor-block-list__block,
+[data-type="generateblocks/container"] .wp-block-heading h1,
+[data-type="generateblocks/container"] .wp-block-heading h1.editor-rich-text__tinymce,
+[data-type="generateblocks/container"] .wp-block-heading h2,
+[data-type="generateblocks/container"] .wp-block-heading h2.editor-rich-text__tinymce,
+[data-type="generateblocks/container"] .wp-block-heading h3,
+[data-type="generateblocks/container"] .wp-block-heading h3.editor-rich-text__tinymce,
+[data-type="generateblocks/container"] .wp-block-heading h4,
+[data-type="generateblocks/container"] .wp-block-heading h4.editor-rich-text__tinymce,
+[data-type="generateblocks/container"] .wp-block-heading h5,
+[data-type="generateblocks/container"] .wp-block-heading h5.editor-rich-text__tinymce,
+[data-type="generateblocks/container"] .wp-block-heading h6,
+[data-type="generateblocks/container"] .wp-block-heading h6.editor-rich-text__tinymce {
+	color: inherit;
+}
+
+.edit-bg-buttons {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.edit-bg-buttons button.components-button {
+    margin-bottom: 10px;
+}
+
+.additional-class-notice .components-notice {
+	margin: 0 0 10px;
+}
+
+.widthButtons button {
+    font-size: 12px;
+    flex: 1;
+	box-shadow: inset 0 0 0 1px #007cba;
+	justify-content: center;
+}
+
+.widthButtons {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.gblocks-column-width-control input[type="number"] {
+	width: 65px;
+}
+
+body .gb-container .wp-block {
+    max-width: none;
+}
+
+[data-type="generateblocks/container"] > .block-editor-block-list__block-edit > [data-block] {
+    margin: 0;
+}
+
+.block-editor-block-inspector .components-base-control {
+	&.gblocks-gpress-full-width {
+		border-top: 1px solid #ddd;
+		padding-top: 15px;
+
+		.components-base-control__label {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+.gblocks-container-text-alignment .components-base-control__label {
+    display: block;
+}
+
+/* Not needed in GB 7 */
+.edit-post-visual-editor .block-editor-block-list__block[data-type="generateblocks/container"] > .block-editor-block-list__block-edit {
+    margin: 0;
+}
+
+.block-editor-block-list__layout .block-editor-block-list__block[data-type="generateblocks/container"] {
+    padding: 0;
+	box-sizing: border-box;
+}
+
+.gb-container .gb-inside-container {
+	box-sizing: content-box;
+}
+
+.gb-container *:not(.gb-inside-container) {
+	box-sizing: border-box;
+}
+
+/* Bad idea?? */
+[data-type="generateblocks/container"] .block-editor-block-list__insertion-point,
+[data-type="generateblocks/grid"] .block-editor-block-list__insertion-point {
+    display: none;
+}
+
+.editor-styles-wrapper .gb-container [data-block]:not([data-type="core/paragraph"]),
+.editor-styles-wrapper .gb-grid-wrapper [data-block]:not([data-type="core/paragraph"]) {
+    margin-top: 0;
+    margin-bottom: 0;
+}

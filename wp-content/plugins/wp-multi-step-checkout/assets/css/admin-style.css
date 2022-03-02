@@ -1,0 +1,206 @@
+h2 a:hover,
+h3 a.nav-tab:hover {
+    text-decoration: none
+}
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+}
+
+.form-table th { width: 400px; }
+
+.btn-group > .btn.active,
+.input-group .form-control {
+    z-index: auto
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f1f1f1
+}
+.container_title,
+.steps,
+h2,
+label {
+    font-family: Raleway
+}
+.wrap {
+    float: left;
+    width: 70%;
+    margin-right: 3%
+}
+h2 {
+    font-weight: 400
+}
+.btn-icon {
+    height: 50px
+}
+.control-label {
+    text-align: right;
+    padding: 15px 10px 10px 0;
+    height: 50px
+}
+.margin-10 {
+    margin-top: 10px
+}
+.icon-style-rect-1 .ndd-icon-main-element {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, .2)
+}
+input[type=color] {
+    padding: 0;
+    width: 50px
+}
+.tab-pane {
+    width: 90%;
+    padding-top: 10px
+}
+.input-group {
+    width: 200px;
+    margin-top: 5px;
+}
+.btn-group-no-margin {
+    margin-left: -15px!important
+}
+input[type=checkbox] {
+    margin-top: 0
+}
+.tooltip-inner {
+    width: 150px;
+    background-color: #000;
+    opacity: .8
+}
+.tooltip-arrow {
+    opacity: .8
+}
+.panel-default {
+    margin-top: 8px
+}
+#right_column_metaboxes {
+    width: 25%;
+    float: left;
+    margin-top: 70px
+}
+.main_container {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 1px -1px #ccc
+}
+.container_title {
+    border-radius: 5px 5px 0 0;
+    background: #474747
+}
+h3 {
+    margin-top: 0!important;
+    padding: 16px 16px 16px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3em;
+    margin: 1em 0
+}
+
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h2 {
+    font-size: 26px!important
+}
+h2 a {
+    color: #23282d
+}
+h2 a:hover {
+    color: #0073aa
+}
+h2 img {
+    margin-bottom: 4px
+}
+h3 .nav-tab {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 15px;
+    border-radius: 4px 4px 0 0;
+    font-weight: 400
+}
+.form-table th {
+    font-weight: normal;
+    text-align: right;
+} 
+a.nav-tab:focus,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:active { outline: none; -webkit-box-shadow: none;box-shadow: none;text-decoration: none;}
+
+#wpbody-content .metabox-holder p,
+.steps,
+label {
+    font-size: 15px
+}
+.form-horizontal {
+    padding: 20px
+}
+.form-horizontal .form-group {
+    margin-left: 0;
+    margin-right: 0
+}
+.form-group.disabled label,
+.form-group.disabled-short label {
+    color: grey
+}
+#demo {
+    border: 1px solid #ccc
+}
+.steps {
+    margin-bottom: 4px
+}
+.steps .steps_nr {
+    font-weight: 700;
+    padding-right: 8px;
+    color: #EF3D4A
+}
+.dashicons-yes {
+    color: green
+}
+.image_zoom_promo {
+    background-color: #bc1117;
+    border: 5px double #fff;
+    text-align: center;
+    margin: 5px auto;
+    width: 96%;
+    border-radius: 10px;
+    opacity: 1!important
+}
+.input-group.input-group-checkbox {
+    width: 20px
+}
+.form-horizontal {
+    float: left;
+    width: 100%
+}
+label {
+    font-weight: 400
+}
+.tooltip-inner {
+    width:150px;
+}
+#alert_messages {
+    width: 100%;
+    float: left;
+}
+.form-group > .col-sm-7 {
+    padding-left: 0;
+}
+.form-group .input-group-text {
+	width: auto;
+}
+input[type="checkbox"] {
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 0;
+    line-height: 2rem;
+    padding-left: 0.1rem !important;
+}

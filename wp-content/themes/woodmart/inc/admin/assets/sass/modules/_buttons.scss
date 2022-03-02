@@ -1,0 +1,98 @@
+// ------------------------------------------------------------------------------------------------
+// BUTTONS
+// ------------------------------------------------------------------------------------------------
+
+.xts-btn {
+	outline: none;
+	border: none;
+	border-radius: $xts-option-border-radius;
+
+	@extend %xts-button;
+}
+
+.xts-btn-primary {
+	@extend %xts-button-primary;
+	@extend %xts-button-primary-hover;
+}
+
+.xts-btn-alt {
+	@extend %xts-button-alternative;
+	@extend %xts-button-alternative-hover;
+}
+
+.xts-btn-disable,
+.xts-remove-upload-btn {
+	background-color: $xts-button-color-remove;
+	color: #FFF;
+
+	&:hover {
+		background-color: $xts-button-color-remove-hover;
+	}
+
+	&:hover,
+	&:focus {
+		color: #FFF;
+	}
+}
+
+.xts-remove-upload-btn {
+	display: none;
+
+	&.xts-active {
+		display: block;
+	}
+}
+
+.xts-inline-btn {
+	display: inline-flex;
+	width: auto !important;
+	color: #101010;
+	text-transform: uppercase;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+
+	&:before {
+		position: relative;
+		bottom: -1px;
+		margin-right: 3px;
+		vertical-align: top;
+		font-weight: 400;
+		font-family: "dashicons";
+	}
+
+	&:hover,
+	&:focus {
+		color: inherit;
+		opacity: .8;
+	}
+
+	&.xts-btn-underline {
+		border-bottom: 2px solid $xts-color-alternative;
+	}
+}
+
+
+.xts-inline-btn-add {
+	color: $xts-color-primary;
+
+	&:before {
+		content: "\f502";
+	}
+}
+
+.xts-inline-btn-remove {
+	color: $xts-button-color-remove;
+
+	&:before {
+		content: "\f182";
+	}
+}
+
+.xts-inline-btn-alt {
+	color: $xts-button-color-alternative;
+
+	&:hover {
+		color: $xts-button-color-alternative-hover;
+	}
+}

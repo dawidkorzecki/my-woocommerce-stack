@@ -1,0 +1,85 @@
+{
+    "primary-color": "#AAD0EB",
+    "primary-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    },
+    "navigation-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "500"
+    },
+    "text-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "400"
+    },
+    "widget-titles-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    },
+    "post-titles-font": {
+        "font-family": "hkgroteskpro",
+        "font-weight": "600"
+    },
+    "products_hover": "icons",
+    "blog_excerpt_length": "120",
+    "btns_shop_bg": "#AAD0EB",
+    "btns_accent_bg": "#AAD0EB",
+    "btns_shop_bg_hover": "#9BBED6",
+    "btns_accent_bg_hover": "#9BBED6",
+    "btns_default_style": "flat",
+    "btns_shop_style": "flat",
+    "btns_accent_style": "flat",
+    "form_border_width": "1",
+    "rev_slider_inherit_theme_font":"1",
+    "products_spacing": "20",
+    "multi_custom_fonts": {
+        "0": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "400",
+            "font-woff": {
+                "url": "",
+                "id": "1621"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1622"
+            }
+        },
+        "2": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "500",
+            "font-woff": {
+                "url": "",
+                "id": "1619"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1620"
+            }
+        },
+        "3": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "600",
+            "font-woff": {
+                "url": "",
+                "id": "1623"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1624"
+            }
+        },
+        "4": {
+            "font-name": "hkgroteskpro",
+            "font-weight": "700",
+            "font-woff": {
+                "url": "",
+                "id": "1617"
+            },
+            "font-woff2": {
+                "url": "",
+                "id": "1618"
+            }
+        }
+    }
+}

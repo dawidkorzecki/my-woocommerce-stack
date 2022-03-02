@@ -1,0 +1,333 @@
+// ------------------------------------------------------------------------------------------------
+// SOCIAL ICONS
+// ------------------------------------------------------------------------------------------------
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: "woodmart-font";
+	src: url("../../../../fonts/woodmart-font.woff") format("woff"),
+	url("../../../../fonts/woodmart-font.woff2") format("woff2");
+}
+
+.xts-fields-section[data-id*="social_"] {
+
+	.xts-field {
+
+		.xts-option-title {
+
+			span {
+				display: flex;
+				align-items: center;
+
+				&:before {
+					font-family: "woodmart-font";
+					margin-right: 8px;
+					font-weight: 400;
+					color: #BFBFBF;
+					font-size: 16px;
+					min-width: 16px;
+				}
+			}
+		}
+	}
+}
+
+.xts-fields-section[data-id*="social_"] .xts-field[class*="isntagram"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f163";
+			}
+		}
+	}
+}
+
+.xts-fields-section[data-id*="social_"] .xts-field[class*="fb"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f180";
+			}
+		}
+	}
+}
+
+.xts-fields-section[data-id*="social_"] .xts-field[class*="ok"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f176";
+			}
+		}
+	}
+}
+
+.xts-fields-section[data-id*="social_"] .xts-field[class*="vk"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f168";
+			}
+		}
+	}
+}
+
+.xts-field[class*="spotify"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f171";
+			}
+		}
+	}
+}
+
+.xts-field[class*="pinterest"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f156";
+			}
+		}
+	}
+}
+
+.xts-field[class*="youtube"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f162";
+			}
+		}
+	}
+}
+
+.xts-field[class*="linkedin"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f158";
+			}
+		}
+	}
+}
+
+.xts-field[class*="viber"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f181";
+			}
+		}
+	}
+}
+
+.xts-field[class*="tiktok"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f133" !important;
+			}
+		}
+	}
+}
+
+.xts-field[class*="twitter"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f154";
+			}
+		}
+	}
+}
+
+.xts-field[class*="whatsapp"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f175";
+			}
+		}
+	}
+}
+
+.xts-fields-section[data-id*="social_"] .xts-field[class*="tg"] {
+	
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f179";
+			}
+		}
+	}
+}
+
+.xts-fields-section[data-id*="social_"] .xts-field[class*="email"] {
+
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f157";
+			}
+		}
+	}
+}
+
+.xts-field[class*="snapchat"] {
+	
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f178";
+			}
+		}
+	}
+}
+
+.xts-field[class*="flickr"] {
+	
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f164";
+			}
+		}
+	}
+}
+
+.xts-field[class*="dribbble"] {
+	
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f166";
+			}
+		}
+	}
+}
+
+.xts-field[class*="soundcloud"] {
+	
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f172";
+			}
+		}
+	}
+}
+
+.xts-field[class*="soundcloud"] {
+	
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f172";
+			}
+		}
+	}
+}
+
+.xts-field[class*="behance"] {
+	
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f170";
+			}
+		}
+	}
+}
+
+.xts-field[class*="github"] {
+	
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f155";
+			}
+		}
+	}
+}
+
+.xts-field[class*="vimeo"] {
+	
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f177";
+			}
+		}
+	}
+}
+
+.xts-field[class*="tumblr"] {
+	
+	.xts-option-title {
+
+		span {
+
+			&:before {
+				content:"\f165";
+			}
+		}
+	}
+}

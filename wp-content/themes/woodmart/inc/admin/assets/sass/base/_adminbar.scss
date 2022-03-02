@@ -1,0 +1,59 @@
+// ------------------------------------------------------------------------------------
+// ADMINBAR
+// ------------------------------------------------------------------------------------
+
+#wp-admin-bar-theme-dashboard {
+
+	> .ab-item {
+		display: flex !important;
+		align-items: center;
+
+		img {
+			margin-right: 5px;
+			max-width: 15px;
+			max-height: 15px;
+		}
+	}
+
+	#wp-admin-bar-theme-settings-default {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		max-width: none;
+		max-height: 185px;
+		width: 500px;
+	}
+
+	.ab-item {
+
+		.dashicons {
+			margin-right: 5px;
+			line-height: 1;
+
+			&:before {
+				position: relative;
+				top: 7px;
+				font-family: 'dashicons';
+			}
+		}
+	}
+
+	.rtl & {
+
+		> .ab-item {
+	
+			img {
+				margin-right: 0;
+				margin-left: 5px;
+			}
+		}
+
+		.ab-item {
+
+			.dashicons {
+				margin-right: 0;
+				margin-left: 5px;
+			}
+		}
+	}
+}

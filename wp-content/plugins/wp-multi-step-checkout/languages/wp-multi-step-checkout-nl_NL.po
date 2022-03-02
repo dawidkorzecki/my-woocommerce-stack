@@ -1,0 +1,141 @@
+# Copyright (C) 2017 Multi-Step Checkout for WooCommerce
+# This file is distributed under the same license as the Multi-Step Checkout for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Multi-Step Checkout for WooCommerce 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-multi-step-"
+"checkout\n"
+"POT-Creation-Date: 2017-12-05 16:29:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-01-24 15:00+0100\n"
+"Last-Translator: Webmaster Theatergroep Maarssen'32 <webmaster@maarssen32."
+"nl>\n"
+"Language-Team: Nederlands\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Loco-Version: 2.2.0; wp-5.0.1\n"
+
+#: includes/admin-side.php:18
+msgid "Main color"
+msgstr "Basis kleur"
+
+#: includes/admin-side.php:19
+msgid "Show the \"Back to Cart\" button"
+msgstr "Toon de \"terug naar winkelwagententje\" button"
+
+#: includes/admin-side.php:20
+msgid "Show the Shipping step"
+msgstr "Toon de verzendings stap"
+
+#: includes/admin-side.php:21
+msgid "Show the Billing and the Shipping steps together"
+msgstr "Toon de Facturatie en Versturen steppen tegelijk"
+
+#: includes/admin-side.php:22
+msgid "Show the Order and the Payment steps together"
+msgstr "Toon de Bestelling en Betaling stappen tegelijk"
+
+#. Plugin Name of the plugin/theme
+#: includes/admin-side.php:94
+msgid "Multi-Step Checkout for WooCommerce"
+msgstr "Multi-Step Checkout for WooCommerce"
+
+#: includes/form-buttons.php:10
+msgctxt "Frontend: button label"
+msgid "Back to cart"
+msgstr "Terug naar winkelwagen"
+
+#: includes/form-buttons.php:14
+msgctxt "Frontend: button label"
+msgid "Previous"
+msgstr "Vorige"
+
+#: includes/form-buttons.php:15
+msgctxt "Frontend: button label"
+msgid "Next"
+msgstr "Volgende"
+
+#: includes/form-buttons.php:16
+msgctxt "Frontend: button label"
+msgid "Skip Login"
+msgstr "Inloggen overslaan"
+
+#: includes/form-checkout.php:52
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+"Als je eerder bij ons hebt gewinkeld, vul dan hieronder je gegevens in. "
+"Als je een nieuwe klant bent, ga dan door naar facturering en verzending."
+
+#: includes/form-checkout.php:61
+msgid "You must be logged in to checkout."
+msgstr "U moet inloggen in de kassa."
+
+#: includes/form-checkout.php:92
+msgid "Your order"
+msgstr "Uw bestelling"
+
+#: includes/form-checkout.php:98 includes/form-tabs.php:26
+msgid "Payment"
+msgstr "Betaling"
+
+#: includes/form-tabs.php:10
+msgid "Login"
+msgstr "Inloggen"
+
+#: includes/form-tabs.php:14
+msgid "Billing"
+msgstr "Facturering"
+
+#: includes/form-tabs.php:18
+msgid "Shipping"
+msgstr "Verzending"
+
+#: includes/form-tabs.php:22
+msgid "Order"
+msgstr "Bestelling"
+
+#: includes/form-tabs.php:34
+msgid "Billing & Shipping"
+msgstr "Facturering & Versturen"
+
+#: includes/form-tabs.php:38
+msgid "Order & Payment"
+msgstr "Bestelling & Betaling"
+
+#: wp-multi-step-checkout.php:56 wp-multi-step-checkout.php:63
+msgid "Cheatin&#8217; huh?"
+msgstr "Valsspelen huh?"
+
+#: wp-multi-step-checkout.php:210
+msgid ""
+"The WP Multi-Step Checkout plugin is enabled, but it requires WooCommerce in "
+"order to work."
+msgstr ""
+"De WP Multi-Step Checkout-plug-in is ingeschakeld, maar hiervoor is "
+"WooCommerce vereist om de plugin te gebruiken"
+
+#: wp-multi-step-checkout.php:232
+msgid "Settings"
+msgstr "Instellingen"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-multi-step-checkout/"
+msgstr "https://wordpress.org/plugins/wp-multi-step-checkout/"
+
+#. Description of the plugin/theme
+msgid "Nice multi-step checkout for your WooCommerce store"
+msgstr "Leuke Mult-step Kassa voor u WooCommerce winkel"
+
+#. Author of the plugin/theme
+msgid "SilkyPress"
+msgstr "SilkyPress"
+
+#. Author URI of the plugin/theme
+msgid "https://www.silkypress.com"
+msgstr "https://wordpress.org/plugins/wp-multi-step-checkout/"

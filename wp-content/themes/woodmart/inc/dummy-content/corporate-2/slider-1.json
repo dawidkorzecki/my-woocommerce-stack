@@ -1,0 +1,15 @@
+ {
+    "name": "Corporate-2 slider",
+    "slug": "corporate-2-slider",
+    "meta": {
+        "stretch_slider": "on",
+        "height": 920,
+        "height_tablet": 765,
+        "height_mobile": 680,
+        "arrows_style": 1,
+        "pagination_style": 1,
+        "pagination_color": "dark",
+        "autoplay": "on",
+        "animation": "parallax"
+    }
+  }

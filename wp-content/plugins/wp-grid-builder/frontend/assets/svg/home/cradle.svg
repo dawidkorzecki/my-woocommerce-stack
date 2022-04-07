@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="wpgb-icon">
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="7" y1="5" x2="7" y2="16" stroke-linejoin="round"></line>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="12" y1="5" x2="12" y2="16" stroke-linejoin="round"></line>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="4" y1="20" x2="4" y2="22" stroke-linejoin="round"></line>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="20" y1="20" x2="20" y2="22" stroke-linejoin="round"></line>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="17" y1="5" x2="17" y2="16" stroke-linejoin="round"></line>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="2" y1="16" x2="22" y2="16" stroke-linejoin="round"></line>
+  <polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" points="2,2 2,20 22,20   22,2 " stroke-linejoin="round"></polyline>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="2" y1="5" x2="22" y2="5" stroke-linejoin="round"></line>
+</svg>

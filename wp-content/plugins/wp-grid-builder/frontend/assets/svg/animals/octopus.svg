@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="wpgb-icon">
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="9" y1="20" x2="9" y2="16" stroke-linejoin="round"></line>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="12" y1="23" x2="12" y2="16" stroke-linejoin="round"></line>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="15" y1="20" x2="15" y2="16" stroke-linejoin="round"></line>
+  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" d="M2,21 c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2v-5" stroke-linejoin="round"></path>
+  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" d="M18,16v5 c0,1.1,0.9,2,2,2c1.1,0,2-0.9,2-2" stroke-linejoin="round"></path>
+  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" d="M21,10c0-5-4-9-9-9 c-5,0-9,4-9,9v6h18V10z" stroke-linejoin="round"></path>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="8" y1="8" x2="9" y2="8" stroke-linejoin="round"></line>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="15" y1="8" x2="16" y2="8" stroke-linejoin="round"></line>
+</svg>

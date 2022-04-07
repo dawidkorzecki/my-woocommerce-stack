@@ -1,0 +1,77 @@
+/* order metabox */
+.flexible_shipping_shipment_content span.description {
+	display: block;
+}
+
+.fs-saas-button-cancel-created {
+	float: right;
+	color: #a00;
+	margin-top: 5px;
+}
+
+.fs-saas-button-cancel-created:hover {
+	color: #a00;
+	cursor: pointer;
+}
+
+.flexible_shipping_shipment_content input[type=checkbox] {
+	float: left;
+	margin-right: 5px;
+	margin-top: 2px !important;
+	opacity: 1;
+	border-color: #888;
+}
+
+.flexible_shipping_shipment_content input[type=checkbox]:disabled {
+	opacity: 0.7;
+	border-color: rgba( 51, 51, 51, 0.5 );
+}
+
+.flexible_shipping_shipment_content p.fs-saas-status {
+}
+
+.flexible_shipping_shipment_content p.fs-saas-status span {
+	font-weight: bold;
+	color: #444;
+}
+
+.flexible_shipping_shipment_content p.fs-saas-status-fs-new {
+	color: #ffba00;
+}
+
+.flexible_shipping_shipment_content p.fs-saas-status-fs-created {
+	color: #d0c21f;
+}
+
+.flexible_shipping_shipment_content p.fs-saas-status-fs-confirmed {
+	color: #444;
+}
+
+.flexible_shipping_shipment_content p.fs-saas-status-fs-failed {
+	color: #a00;
+}
+
+.flexible_shipping_shipment_content p.fs-saas-status-fs-manifest {
+	color: #2ea2cc;
+}
+
+.flexible_shipping_shipment_content p.connection-error {
+	font-weight: bold;
+	color: #a00;
+}
+
+.flexible_shipping_shipment_content span.optional {
+	display: none;
+}
+.flexible_shipping_shipment_message {
+	color: green;
+}
+
+.flexible_shipping_shipment_message_error {
+	color: #a00 !important;
+}
+
+.flexible_shipping_shipment_message_error span {
+	color: #444;
+	font-weight: bold;
+}

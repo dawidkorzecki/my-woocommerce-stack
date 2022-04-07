@@ -1,0 +1,164 @@
+// ------------------------------------
+// CHECKOUT VALIDATION MESSAGES
+// ------------------------------------
+
+div.woocommerce .form-row .woocommerce-error:not( .invalid-country-not-allowed ) {
+	display: none;
+}
+
+div.woocommerce .form-row.woocommerce-invalid .woocommerce-error {
+	display: block;
+}
+
+
+
+div.woocommerce .form-row .woocommerce-error,
+div.woocommerce .shipping-method__package .woocommerce-error,
+div.woocommerce .form-row .fc-mailcheck-suggestion {
+	position: relative;
+	margin: 0;
+	padding: $checkout-message-error-padding;
+	padding-#{ $alignment-left }: $checkout-message-error-padding-left;
+	border: 0;
+	background-color: $checkout-message-error-background-color;
+	font-size: $font-size-extra-small;
+	text-align: #{ $alignment-left };
+	line-height: 1.6;
+}
+
+div.woocommerce .form-row .fc-mailcheck-suggestion {
+	padding: $checkout-message-suggestion-padding;
+}
+
+div.woocommerce .form-row .fc-mailcheck-suggestion .mailcheck-suggestion {
+	&:focus {
+		outline: $focus-outline-link;
+		outline-offset: $focus-outline-offset-link;
+	}
+}
+
+div.woocommerce .form-row .woocommerce-error,
+div.woocommerce .shipping-method__package .woocommerce-error {
+	color: $checkout-message-error-color;
+}
+
+div.woocommerce .shipping-method__package .woocommerce-error {
+	padding-left: #{ $global-spacing-extra-small + $shipping-method-radio-size + $shipping-method-padding-horizontal + remsize( .1rem ) };
+	background-color: transparent;
+}
+
+
+
+div.woocommerce .form-row .woocommerce-error:before,
+div.woocommerce .shipping-method__package .woocommerce-error:before {
+	@include icon( $checkout-message-error-icon );
+	@include icon-size( $checkout-message-error-icon-size );
+
+	position: absolute;
+	top: $checkout-message-error-icon-position-top;
+	#{ $alignment-left }: $checkout-message-error-icon-position-left;
+	transform: translateY( -50% );
+	color: inherit;
+}
+
+div.woocommerce .shipping-method__package .woocommerce-error:before {
+	#{ $alignment-left }: $global-spacing-extra-small + $global-spacing-tiny;
+}
+
+
+
+
+
+// ------------------------------------
+// CHECKOUT FIELD VALIDATION
+// ------------------------------------
+
+// INVALID FIELDS
+div.woocommerce form .form-row[class*='woocommerce-invalid'] {
+	textarea,
+	select,
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="text"],
+	input[type="date"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"],
+	.select2-selection {
+		border-color: $error-color;
+	}
+}
+div.woocommerce form .shipping-method__package[class*='woocommerce-invalid'] {
+	#shipping_method.shipping-method__options {
+		border-color: $error-color;
+	}
+}
+
+
+
+// VALID FIELDS
+div.woocommerce form .form-row.woocommerce-validated:not( [class*='woocommerce-invalid'] ) {
+
+	textarea,
+	select,
+	input[type="email"],
+	input[type="number"],
+	input[type="search"],
+	input[type="text"],
+	input[type="date"],
+	input[type="tel"],
+	input[type="url"],
+	input[type="password"],
+	.select2-selection {
+		border-color: $success-color;
+	}
+
+	// Container for "valid" check icon
+	.woocommerce-input-wrapper {
+		position: relative;
+		display: block;
+		width: 100%;
+	}
+
+	// "valid" field check icon
+	// skip fields with `fc-no-validation-icon` and `fc-select2-field` classes
+	&:not( .fc-no-validation-icon ) .select2-selection:after,
+	&:not( .fc-no-validation-icon ):not( .fc-select2-field ) .woocommerce-input-wrapper:after {
+		@include icon( 'i-check-small' );
+		@include icon-size( $icon-size );
+
+		z-index: z( 'above' );
+		position: absolute;
+		#{ $alignment-right }: remsize( .5rem );
+		top: remsize( 1rem );
+		border-radius: 100%;
+		background-color: transparentize( $white, .25 );
+		color: $success-color;
+		pointer-events: none;
+	}
+
+	// Password
+	&:not( .fc-no-validation-icon ):not( .fc-select2-field ) .woocommerce-input-wrapper.password-input:after {
+		#{ $alignment-right }: remsize( 3rem );
+	}
+
+	// Select2 Fields
+	&:not( .fc-no-validation-icon ) .select2-selection:after {
+		#{ $alignment-right }: remsize( 2rem );
+	}
+	// Select2 Fields (optional, with "clear" button)
+	&.fc-select2-field:not( .fc-no-validation-icon ) select:not( [required] ) ~ .select2-container .select2-selection:after {
+		#{ $alignment-right }: remsize( 3rem );
+	}
+
+	// Exclusions for "valid" field check icon
+	.woocommerce-terms-and-conditions-wrapper &,
+	&.create-account {
+		&:after {
+			content: '';
+			display: none;
+		}
+	}
+
+}

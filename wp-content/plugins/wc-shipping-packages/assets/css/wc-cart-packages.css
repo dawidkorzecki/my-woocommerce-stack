@@ -1,0 +1,148 @@
+.woocommerce .shop_table img.wp-post-image {
+    width: 100px;
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+.woocommerce .cart-collaterals.wc-cart-packages-collaterals .cross-sells, .woocommerce-page .cart-collaterals.wc-cart-packages-collaterals .cross-sells {
+    width: auto;
+    float: none;
+    clear: both;
+}
+
+.woocommerce .cart-collaterals.wc-cart-packages-collaterals .cross-sells ul.products li {
+    width: 30%;
+}
+
+.woocommerce .cart-collaterals.wc-cart-packages-collaterals ul.products li.first {
+    clear: none;
+}
+
+.woocommerce-cart-form {
+    width: 70%;
+    float: left;
+}
+
+.woocommerce-cart-totals {
+    width: 27%;
+    float: left;
+    padding-left: 20px;
+}
+
+.shop_table .component_table_item .product-thumbnail,
+.shop_table .bundled_table_item .product-thumbnail {
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 979px) {
+    .woocommerce-cart-form {
+        width: auto;
+        float: none;
+    }
+
+    .woocommerce-cart-totals {
+        width: auto;
+        float: none;
+        padding-left: 0;
+    }    
+}
+
+@media only screen and (max-width: 768px) {
+    .woocommerce .cart-collaterals.wc-cart-packages-collaterals .cross-sells ul.products li {
+        width: auto;
+    }
+
+    .woocommerce .cart-collaterals.wc-cart-packages-collaterals ul.products[class*="columns-"] li.product:nth-child(2n) {
+        float: none;
+        width: auto;
+    }
+
+    .woocommerce .cart-collaterals.wc-cart-packages-collaterals ul.products[class*="columns-"] li.product {
+        float: none;
+        width: auto;
+    }
+
+    .woocommerce-cart-totals table.shop_table_responsive tr td:first-child {
+        display: none;
+    }
+
+    .woocommerce .bundled_table_item .product-name,
+    .woocommerce .bundled_table_item .product-price,
+    .woocommerce .bundled_table_item:not(.order_item) .product-quantity,
+    .woocommerce .component_table_item .product-name .component dd, 
+    .woocommerce .component_table_item .product-name p.backorder_notification, 
+    .woocommerce .component_table_item .product-price, 
+    .woocommerce .component_table_item .product-quantity, 
+    .woocommerce .component_table_item .product-subtotal, 
+    .woocommerce .component_table_item .product-total {
+        font-size: inherit;
+    }
+
+
+    .woocommerce table.shop_table_responsive tr td:not([data-title]):before,
+    .product-thumbnail:before,
+    .product-subtotal:empty:before,
+    .product-quantity:empty:before,
+    .product-price:empty:before {
+        content: "" !important;
+    }
+
+    .woocommerce table.shop_table_responsive tr:nth-child(2n) .product-thumbnail,
+    .woocommerce table.cart .product-thumbnail {
+        display: block !important;
+        float: left;
+        background: transparent;
+        clear: both;
+        padding: 10px 0 !important;
+        border: 0 !important;
+    }
+
+    .woocommerce .shop_table .product-thumbnail,
+    .woocommerce .shop_table .component_table_item .product-thumbnail,
+    .woocommerce .shop_table .bundled_table_item .product-thumbnail,
+    .woocommerce .shop_table .component_table_item .component_table_item_indent {
+        padding: 3px;
+    }
+
+    .product-name,
+    .product-subtotal,
+    .product-quantity,
+    .product-price {
+        margin-left: 170px;
+    }
+
+    .woocommerce table.shop_table_responsive tr td.shipping-methods {
+        text-align: left !important;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .product-name,
+    .product-subtotal,
+    .product-quantity,
+    .product-price {
+        margin-left: 70px;
+    }
+
+    .woocommerce .shop_table img.wp-post-image,
+    .woocommerce .shop_table img.attachment-woocommerce_thumbnail {
+        width: 80px;
+        max-width: 80px;
+        margin-top: 60px
+    }    
+}
+
+@media only screen and (max-width: 480px) {
+    .product-name,
+    .product-subtotal,
+    .product-quantity,
+    .product-price {
+        margin-left: 50px;
+    }
+
+    .woocommerce .shop_table img.wp-post-image,
+    .woocommerce .shop_table img.attachment-woocommerce_thumbnail {
+        width: 50px;
+        max-width: 50px;
+    }    
+}

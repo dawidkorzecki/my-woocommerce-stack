@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="wpgb-icon">
+  <circle fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" cx="12" cy="13" r="10" stroke-linejoin="round"></circle>
+  <path data-cap="butt" fill="none" stroke="currentColor" stroke-miterlimit="10" d="M8.722,3.561C8.143,2.065,6.7,1,5,1 C2.791,1,1,2.791,1,5c0,1.511,0.847,2.81,2.083,3.49" stroke-linejoin="round" stroke-linecap="round"></path>
+  <path data-cap="butt" fill="none" stroke="currentColor" stroke-miterlimit="10" d="M15.278,3.561 C15.857,2.065,17.3,1,19,1c2.209,0,4,1.791,4,4c0,1.511-0.847,2.81-2.083,3.49" stroke-linejoin="round" stroke-linecap="round"></path>
+  <polygon fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" points=" 12,16 13,14 11,14 " stroke-linejoin="round"></polygon>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="12" y1="16" x2="12" y2="18" stroke-linejoin="round"></line>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="10" y1="18" x2="14" y2="18" stroke-linejoin="round"></line>
+  <circle data-stroke="none" fill="currentColor" cx="9" cy="10" r="1" stroke-linejoin="round" stroke-linecap="round"></circle>
+  <circle data-stroke="none" fill="currentColor" cx="15" cy="10" r="1" stroke-linejoin="round" stroke-linecap="round"></circle>
+</svg>

@@ -1,0 +1,8 @@
+// ------------------------------------
+// WOOCOMMERCE FORM-ROW
+// ------------------------------------
+
+#{ $_body-theme-selector-prefix } div.woocommerce form .form-row input[type="checkbox"],
+#{ $_body-theme-selector-prefix } div.woocommerce form .form-row input[type="radio"] {
+	background-color: $white;
+}

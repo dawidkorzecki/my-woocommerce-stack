@@ -49,7 +49,7 @@ $get_checkout_url = apply_filters( 'woocommerce_get_checkout_url', wc_get_checko
 					</div>
 
 					<div class="col-12">
-						<?php do_action( 'woocommerce_checkout_shipping' ); ?>
+						<?php do_action( 'woocommerce_checkout_shipping' ); ?>						
 					</div>
 				</div>
 

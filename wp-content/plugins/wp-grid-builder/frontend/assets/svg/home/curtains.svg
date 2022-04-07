@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="wpgb-icon">
+  <line data-cap="butt" x1="12" y1="2" x2="12" y2="18" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></line>
+  <line data-cap="butt" x1="7" y1="18" x2="17.03" y2="18" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></line>
+  <line data-cap="butt" x1="2" y1="13.993" x2="5.973" y2="14" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></line>
+  <line data-cap="butt" x1="22" y1="13.993" x2="18.027" y2="14" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></line>
+  <path d="M14,2a19.885,19.885,0,0,0,4.027,12L16,22h6V2H2V22H8L5.973,14A19.885,19.885,0,0,0,10,2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="round"></path>
+</svg>

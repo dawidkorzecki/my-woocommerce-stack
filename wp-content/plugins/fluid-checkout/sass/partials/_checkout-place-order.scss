@@ -1,0 +1,88 @@
+// ------------------------------------
+// CHECKOUT PLACE ORDER
+// ------------------------------------
+
+.fc-wrapper .fc-inside div.place-order {
+	padding: $place-order-padding;
+
+	@media (#{$bp-larger-than-desktop}) {
+		padding: $place-order-padding--large-screen;
+	}
+}
+
+.fc-sidebar div.place-order {
+	display: none;
+
+	@media (#{$bp-larger-than-desktop}) {
+		display: block;
+		padding: $place-order-padding-sidebar--large-screen;
+	}
+}
+
+
+.woocommerce-terms-and-conditions-wrapper,
+.woocommerce-terms-and-conditions-wrapper .woocommerce-form__label {
+	margin-bottom: 0;
+	text-align: $alignment-left;
+}
+
+
+
+.woocommerce-privacy-policy-text:not( :last-child ):not( :empty ) {
+	margin-bottom: $global-spacing-small;
+}
+
+.woocommerce-terms-and-conditions {
+	margin-bottom: $global-spacing-small;
+	padding: $global-spacing-extra-small;
+	background-color: $white;
+}
+
+
+
+.woocommerce-privacy-policy-text > p,
+.woocommerce-terms-and-conditions-wrapper > p {
+	margin-bottom: $global-spacing-small;
+}
+.woocommerce-privacy-policy-text > p:last-child,
+.woocommerce-terms-and-conditions-wrapper > p:last-child {
+	margin-bottom: 0;
+}
+
+
+
+.fc-place-order {
+	padding: $global-spacing 0;
+	text-align: center;
+}
+
+
+
+// Place order button
+.fc-wrapper .fc-place-order .fc-place-order-button {
+	margin: 0;
+	width: 100%;
+	min-width: remsize( 28rem );
+	min-height: remsize( 5rem );
+	text-align: center;
+
+	&:focus {
+		outline: $focus-outline-button;
+		outline-offset: $focus-outline-offset-button;
+	}
+}
+
+// Place order button on the sidebar
+.fc-sidebar .fc-place-order .fc-place-order-button {
+	margin: $global-spacing-extra-small auto 0;
+}
+
+
+
+div.place-order .woocommerce-terms-and-conditions-link,
+div.place-order .woocommerce-privacy-policy-link {
+	&:focus {
+		outline: $focus-outline-link !important; // Needed to override theme styles set with `!important`
+		outline-offset: $focus-outline-offset-link !important; // Needed to override theme styles set with `!important`
+	}
+}

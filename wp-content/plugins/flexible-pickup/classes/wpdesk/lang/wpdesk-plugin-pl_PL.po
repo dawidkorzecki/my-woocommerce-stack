@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Desk Class\n"
+"POT-Creation-Date: 2016-10-27 14:04+0100\n"
+"PO-Revision-Date: 2016-10-27 14:05+0100\n"
+"Last-Translator: wp-kat <admin@wp-kat.net>\n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPathExcluded-0: settings-api\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-helper.php:34
+#, php-format
+msgid ""
+"The %s%s%s License Key has not been activated, so the plugin is inactive! "
+"%sClick here%s to activate the license key and the plugin."
+msgstr ""
+"Klucz licencyjny wtyczki %s%s%s nie został aktywowany, więc wtyczka jest "
+"nieaktywna! %sKliknij tutaj%s, aby aktywować klucz licencyjny wtyczki."
+
+#: class-plugin.php:217
+msgid "Docs"
+msgstr "Docs"
+
+#: class-plugin.php:218
+msgid "Support"
+msgstr "Wsparcie"
+
+#: class-plugin.php:224
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: class-plugin.php:270
+#, php-format
+msgid ""
+"<a href=\"%s\">Install the WP Desk Helper plugin</a> to activate and get "
+"updates for your WP Desk plugins."
+msgstr ""
+"<a href=\"%s\">Zainstaluj wtyczkę WP Desk Helper</a>, aby aktywować i "
+"otrzymywać aktualizacje wtyczek WP Desk."
+
+#: class-plugin.php:276
+#, php-format
+msgid ""
+"<a href=\"%s\">Activate the WP Desk Helper plugin</a> to activate and get "
+"updates for your WP Desk plugins."
+msgstr ""
+"<a href=\"%s\">Włącz wtyczkę WP Desk Helper</a>, aby aktywować i otrzymywać "
+"aktualizacje wtyczek WP Desk."
+
+#: class-settings.php:85 settings-api/class.s214-settings.php:1211
+msgid "Insert Image"
+msgstr "Wstaw obrazek"
+
+#: class-settings.php:86 settings-api/class.s214-settings.php:1212
+msgid "Select Image"
+msgstr "Wybierz obrazek"
+
+#: settings-api/class.s214-settings.php:144
+#: settings-api/class.s214-settings.php:146
+msgid "Section214 Settings"
+msgstr "Ustawienia Section214"
+
+#: settings-api/class.s214-settings.php:592
+msgid "Settings updated."
+msgstr "Ustawienia zostały zaktualizowane."
+
+#: settings-api/class.s214-settings.php:977
+msgid ""
+"To copy the system info, click below then press Ctrl + C (PC) or Cmd + C "
+"(Mac)."
+msgstr ""
+"Aby skopiować informacje systemowe kliknij poniżej a następnie wciśnij Ctrl"
+"+C lub Cmd+C."
+
+#: settings-api/class.s214-settings.php:980
+msgid "Download System Info File"
+msgstr "Pobierz plik z informacjami systemowymi"
+
+#: settings-api/class.s214-settings.php:1060
+msgid "Upload File"
+msgstr "Załaduj plik"
+
+#: settings-api/class.s214-settings.php:1090
+msgid "Deactivate License"
+msgstr "Deaktywacja licencji"
+
+#: settings-api/class.s214-settings.php:1121
+#, php-format
+msgid ""
+"The callback function used for the <strong>%s</strong> setting is missing."
+msgstr "Funkcja callback dla <strong>%s</strong> nie istnieje"
+
+#~ msgid "Licensing"
+#~ msgstr "Licencjonowanie"
+
+#~ msgid "%1$s License Key"
+#~ msgstr "Klucz licencji %1$s"
+
+#~ msgid ""
+#~ "Please enter your license key to enable automatic updates and support."
+#~ msgstr ""
+#~ "Wprowadz klucz licencji aby aktywować automatyczne aktualizacje i support."
+
+#~ msgid "Nonce verification failed"
+#~ msgstr "Błąd weryfikacji nonce"
+
+#~ msgid "Error"
+#~ msgstr "Błąd"
+
+#~ msgid "This license does not belong to the product you have entered it for."
+#~ msgstr "Licencja dotyczy innego produktu."
+
+#~ msgid "This license does not have any activations left"
+#~ msgstr "Licencja nie posiada wolnych aktywacji."
+
+#~ msgid "This license key is expired. Please renew it."
+#~ msgstr "Klucz licencyjny wygasł. Proszę go odnowić."
+
+#~ msgid ""
+#~ "There was a problem activating your license key, please try again or "
+#~ "contact support. Error code: %s"
+#~ msgstr ""
+#~ "Wystąpił problem przy aktywacji klucza licencji, proszę spróbować "
+#~ "ponownie lub skontaktować się z supportem. Kod błędu: %s"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Jest dostępna nowa wersja %1$s . %2$sZobacz szczegóły %3$s wersji %4$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Brak uprawnień do instalacji aktualizacji"

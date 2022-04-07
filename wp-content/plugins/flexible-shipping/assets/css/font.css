@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'flexible-shipping';
+    src:  url('../fonts/flexible-shipping.eot?imgwjn');
+    src:  url('../fonts/flexible-shipping.eot?imgwjn#iefix') format('embedded-opentype'),
+    url('../fonts/flexible-shipping.ttf?imgwjn') format('truetype'),
+    url('../fonts/flexible-shipping.woff?imgwjn') format('woff'),
+    url('../fonts/flexible-shipping.svg?imgwjn#flexible-shipping') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.shipping-status a.icon-status {
+    font-family: 'flexible-shipping' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -9999px;
+    height: 2em!important;
+    width: 2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+div.shipping-status a.icon-status:before {
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    background: transparent none;
+    margin: 0 0 0 5px;
+    text-indent: 0;
+}
+
+.icon-plus-circle:before, .icon-status-new:before {
+    color: #ffba00;
+    background: transparent none;
+    text-indent: 0;
+    content: "\f055";
+}
+.icon-check-circle:before, .icon-status-confirmed:before {
+    color: #2ea2cc;
+    content: "\f058";
+}
+.icon-exclamation-circle:before, .icon-status-error:before {
+    color: #d0c21f;
+    content: "\f06a";
+}
+.icon-truck:before {
+    content: "\f0d1";
+}
+.icon-pause-circle:before, .icon-status-created:before {
+    color: #999;
+    content: "\f28b";
+}
+
+.icon-check-circle:before, .icon-status-manifest:before {
+	color: #00aE11;
+	content: "\f058";
+}

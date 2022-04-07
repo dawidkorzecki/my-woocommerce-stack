@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="wpgb-icon">
+  <path data-cap="butt" fill="none" stroke="currentColor" stroke-miterlimit="10" d="M3,4v16c0,1.657,4.029,3,9,3 s9-1.343,9-3V4" stroke-linejoin="round" stroke-linecap="round"></path>
+  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" d="M21,4 c0-1.657-4.029-3-9-3S3,2.343,3,4s4.029,3,9,3v6c0,1.104,0.895,2,2,2c1.105,0,2-0.895,2-2V6.684C18.961,6.193,21,5.177,21,4z" stroke-linejoin="round"></path>
+</svg>

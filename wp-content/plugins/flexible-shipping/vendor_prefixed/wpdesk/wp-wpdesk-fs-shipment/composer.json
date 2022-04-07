@@ -1,0 +1,46 @@
+{
+    "name": "wpdesk\/wp-wpdesk-fs-shipment",
+    "authors": [
+        {
+            "name": "Krzysiek",
+            "email": "krzysiek@wpdesk.pl"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "5.6"
+        },
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=5.6",
+        "wpdesk\/wp-mutex": "^1.1",
+        "wpdesk\/wp-plugin-flow": "^2|^3",
+        "wpdesk\/wp-wpdesk-fs-shipment-interfaces": "^1.0"
+    },
+    "require-dev": {
+        "10up\/wp_mock": "^0.2.0",
+        "phpunit\/phpunit": "<7",
+        "squizlabs\/php_codesniffer": "^3.4.2",
+        "wp-coding-standards\/wpcs": "^0.14.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FSVendor\\": "src"
+        }
+    },
+    "autoload-dev": {},
+    "extra": {
+        "text-domain": "wp-wpdesk-fs-shipment",
+        "translations-folder": "lang",
+        "po-files": {
+            "pl_PL": "pl_PL.po"
+        }
+    },
+    "scripts": {
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-fast": "phpunit --configuration phpunit-unit.xml --no-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "phpunit-integration-fast": "phpunit --configuration phpunit-integration.xml --no-coverage"
+    }
+}

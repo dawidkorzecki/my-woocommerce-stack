@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="wpgb-icon">
+  <polyline points="5 23 5 1 9 1 9 23" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="round"></polyline>
+  <line x1="2" y1="23" x2="12" y2="23" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="round"></line>
+  <polyline points="9 4 23 5 23 8 9 8" fill="none" stroke="currentColor" stroke-miterlimit="10" data-cap="butt" stroke-linecap="round" stroke-linejoin="round"></polyline>
+  <polyline points="5 8 1 8 1 5 5 4" fill="none" stroke="currentColor" stroke-miterlimit="10" data-cap="butt" stroke-linecap="round" stroke-linejoin="round"></polyline>
+  <line x1="20" y1="11" x2="20" y2="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="round"></line>
+  <rect x="17" y="16" width="6" height="4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="round"></rect>
+</svg>

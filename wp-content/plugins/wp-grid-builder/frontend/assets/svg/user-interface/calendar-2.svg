@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="wpgb-icon">
+  <polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" points="23,9 23,23 1,23 1,9 " stroke-linejoin="round"></polyline>
+  <rect x="1" y="3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" width="22" height="6" stroke-linejoin="round"></rect>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="12" y1="1" x2="12" y2="5" stroke-linejoin="round"></line>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="6" y1="1" x2="6" y2="5" stroke-linejoin="round"></line>
+  <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" x1="18" y1="1" x2="18" y2="5" stroke-linejoin="round"></line>
+  <rect x="5" y="13" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" width="2" height="1" stroke-linejoin="round"></rect>
+  <rect x="11" y="13" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" width="2" height="1" stroke-linejoin="round"></rect>
+  <rect x="5" y="18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" width="2" height="1" stroke-linejoin="round"></rect>
+  <rect x="11" y="18" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" width="2" height="1" stroke-linejoin="round"></rect>
+  <rect x="17" y="13" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" width="2" height="1" stroke-linejoin="round"></rect>
+  <rect data-stroke="none" x="5" y="13" fill="currentColor" width="2" height="1" stroke-linejoin="round" stroke-linecap="round"></rect>
+  <rect data-stroke="none" x="11" y="13" fill="currentColor" width="2" height="1" stroke-linejoin="round" stroke-linecap="round"></rect>
+  <rect data-stroke="none" x="5" y="18" fill="currentColor" width="2" height="1" stroke-linejoin="round" stroke-linecap="round"></rect>
+  <rect data-stroke="none" x="11" y="18" fill="currentColor" width="2" height="1" stroke-linejoin="round" stroke-linecap="round"></rect>
+  <rect data-stroke="none" x="17" y="13" fill="currentColor" width="2" height="1" stroke-linejoin="round" stroke-linecap="round"></rect>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="wpgb-icon">
+  <line fill="none" stroke="currentColor" stroke-miterlimit="10" x1="1" y1="15" x2="7" y2="15" stroke-linejoin="round" stroke-linecap="round"></line>
+  <line fill="none" stroke="currentColor" stroke-miterlimit="10" x1="7" y1="15" x2="13" y2="15" stroke-linejoin="round" stroke-linecap="round"></line>
+  <rect x="1" y="3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" width="6" height="18" stroke-linejoin="round"></rect>
+  <rect x="7" y="3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" width="6" height="18" stroke-linejoin="round"></rect>
+  <line fill="none" stroke="currentColor" stroke-miterlimit="10" x1="15.628" y1="15.146" x2="21.483" y2="13.831" stroke-linejoin="round" stroke-linecap="round"></line>
+  <rect x="14.898" y="2.561" transform="matrix(0.9757 -0.219 0.219 0.9757 -2.0978 4.2012)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" width="6" height="18" stroke-linejoin="round"></rect>
+</svg>

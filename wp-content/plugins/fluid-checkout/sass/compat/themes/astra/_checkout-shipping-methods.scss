@@ -1,0 +1,8 @@
+// ------------------------------------
+// CHECKOUT SHIPPING METHODS
+// ------------------------------------
+
+#{ $_body-theme-selector-prefix } .woocommerce #fc-substep__fields--shipping_method ul#shipping_method li.shipping-method__option {
+	padding: 0;
+	text-indent: 0;
+}

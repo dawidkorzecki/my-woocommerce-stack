@@ -1,0 +1,12 @@
+<svg viewBox="0 0 120 24" width="0" height="0">
+	<defs>
+        <polygon id="wpgb-star-svg" points="12 2.5 15.1 8.8 22 9.8 17 14.6 18.2 21.5 12 18.3 5.8 21.5 7 14.6 2 9.8 8.9 8.8"></polygon>
+    </defs>
+    <symbol id="wpgb-rating-stars-svg">
+        <use xlink:href="#wpgb-star-svg"></use>
+        <use xlink:href="#wpgb-star-svg" x="24"></use>
+        <use xlink:href="#wpgb-star-svg" x="48"></use>
+        <use xlink:href="#wpgb-star-svg" x="72"></use>
+        <use xlink:href="#wpgb-star-svg" x="96"></use>
+    </symbol>
+</svg>

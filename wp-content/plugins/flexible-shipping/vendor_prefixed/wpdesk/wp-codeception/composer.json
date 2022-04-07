@@ -1,0 +1,60 @@
+{
+    "name": "wpdesk\/wp-codeception",
+    "description": "Library for WP Desk Codeception tests.",
+    "license": "MIT",
+    "keywords": [
+        "wordpress",
+        "codeception",
+        "admin"
+    ],
+    "homepage": "https:\/\/gitlab.com\/wpdesk\/wp-codeception",
+    "type": "composer-plugin",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "grola",
+            "email": "grola@wpdesk.net"
+        }
+    ],
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.0.8"
+        }
+    },
+    "require": {
+        "php": ">=7.0.8",
+        "ext-json": "*",
+        "composer-plugin-api": "^1.1|^2",
+        "albertofem\/rsync-lib": "^1.0",
+        "bordoni\/phpass": "^0.3.5",
+        "codeception\/module-cli": "^1.0",
+        "codeception\/module-db": "^1.0",
+        "codeception\/module-filesystem": "^1.0",
+        "codeception\/module-phpbrowser": "^1.0",
+        "codeception\/module-rest": "^1.2",
+        "codeception\/module-webdriver": "^1.0",
+        "codeception\/util-universalframework": "^1.0",
+        "lucatume\/codeception-steppify": "^1.0",
+        "lucatume\/wp-browser": "^2.4",
+        "phpunit\/php-code-coverage": "^5.3",
+        "symfony\/yaml": "^v3.4.47",
+        "vlucas\/phpdotenv": "^4.2.0",
+        "wp-cli\/admin-command": "^2.0",
+        "wp-cli\/wp-cli-bundle": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "FSVendor\\WPDesk\\Codeception\\": "src\/WPDesk\/Codeception",
+            "FSVendor\\Codeception\\Module\\": "src\/Codeception\/Module",
+            "FSVendor\\WPDesk\\Composer\\Codeception\\": "src\/WPDesk\/Composer"
+        }
+    },
+    "autoload-dev": {},
+    "scripts": {
+        "phpcs": "phpcs"
+    },
+    "extra": {
+        "class": "WPDesk\\Composer\\Codeception\\Plugin"
+    }
+}

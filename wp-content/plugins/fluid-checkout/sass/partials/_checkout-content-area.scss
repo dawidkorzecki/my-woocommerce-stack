@@ -1,0 +1,190 @@
+// ------------------------------------
+// CHECKOUT CONTENT AREA
+// ------------------------------------
+body.woocommerce-checkout {
+	overflow-x: hidden;
+}
+
+
+
+// Remove margins inherited from some themes
+body.woocommerce-checkout .fc-content,
+form.woocommerce-checkout {
+	display: block !important; // Needed to override theme styles breaking the layout
+	margin: 0;
+}
+
+.fc-content form.woocommerce-checkout {
+	clear: both;
+	float: none;
+}
+.fc-content form.woocommerce-checkout:after {
+	@include clearfix();
+}
+
+
+
+body.woocommerce-checkout #main.fc-main {
+	position: static;
+	float: none;
+	margin: 0 auto;
+
+	// max-width
+	max-width: $container-width-mobile;
+	@media (#{$bp-larger-than-tablet}) { max-width: $container-width-tablet; }
+	@media (#{$bp-larger-than-desktop}) { max-width: $container-width-desktop; }
+	@media (#{$bp-larger-than-desktop-medium}) { max-width: $container-width-desktop-medium; }
+	@media (#{$bp-larger-than-desktop-large}) { max-width: $container-width-desktop-large; }
+	@media (#{$bp-larger-than-desktop-extra-large}) { max-width: $container-width-desktop-extra-large; }
+
+	// padding
+	padding: $checkout-header-height $container-spacing-mobile $global-spacing-medium;
+	@media (#{$bp-larger-than-tablet}) { padding: $checkout-header-height $container-spacing-tablet $global-spacing-medium; }
+	@media (#{$bp-larger-than-desktop}) { padding: 0 $container-spacing-desktop $global-spacing-medium; }
+	@media (#{$bp-larger-than-desktop-medium}) { padding: 0 $container-spacing-desktop-medium $global-spacing-medium; }
+	@media (#{$bp-larger-than-desktop-large}) { padding: 0 $container-spacing-desktop-large $global-spacing-medium; }
+	@media (#{$bp-larger-than-desktop-extra-large}) { padding: 0 $container-spacing-desktop-extra-large $global-spacing-medium; }
+}
+
+
+
+body.woocommerce-checkout .fc-content,
+body.woocommerce-checkout .fc-content * {
+	box-sizing: border-box !important; // Needed to override theme styles breaking the layout
+}
+
+body.woocommerce-checkout .fc-content {
+	box-sizing: border-box;
+	float: none !important; // Needed to override theme styles breaking the layout
+	margin: 0 auto;
+	padding-bottom: $global-spacing-medium;
+	width: 100%;
+	border: 0;
+	text-align: left;
+}
+body.woocommerce-checkout .fc-content.fc-container {
+	// max-width
+	@media (#{$bp-larger-than-desktop}) { max-width: $container-width-desktop; }
+	@media (#{$bp-larger-than-desktop-medium}) { max-width: $container-width-desktop-medium; }
+	@media (#{$bp-larger-than-desktop-large}) { max-width: $container-width-desktop-large; }
+	@media (#{$bp-larger-than-desktop-extra-large}) { max-width: $container-width-desktop-extra-large; }
+
+	// padding
+	padding: 0 $container-spacing-mobile $global-spacing-medium;
+	@media (#{$bp-larger-than-tablet}) { padding: 0 $container-spacing-tablet $global-spacing-medium; }
+	@media (#{$bp-larger-than-desktop}) { padding: 0 $container-spacing-desktop $global-spacing-medium; }
+	@media (#{$bp-larger-than-desktop-medium}) { padding: 0 $container-spacing-desktop-medium $global-spacing-medium; }
+	@media (#{$bp-larger-than-desktop-large}) { padding: 0 $container-spacing-desktop-large $global-spacing-medium; }
+	@media (#{$bp-larger-than-desktop-extra-large}) { padding: 0 $container-spacing-desktop-extra-large $global-spacing-medium; }
+}
+
+body.woocommerce-checkout.has-checkout-header .fc-content {
+	min-height: 100vh;
+
+	@media (#{$bp-larger-than-desktop}) {
+		padding-top: $global-spacing-extra-small;
+	}
+}
+
+
+
+body.woocommerce-checkout .fc-content > div.woocommerce {
+	position: static;
+
+	@media (#{$bp-larger-than-desktop-medium}) {
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+// ------------------------------------
+// CHECKOUT COLUMNS LAYOUT
+// ------------------------------------
+body:not( .has-checkout-must-login-notice ) .fc-checkout-header ~ .woocommerce-message,
+body:not( .has-checkout-must-login-notice ) .fc-checkout-header ~ .woocommerce-info,
+body:not( .has-checkout-must-login-notice ) .fc-checkout-header ~ .woocommerce-error,
+body:not( .has-checkout-must-login-notice ) .fc-checkout-notices,
+body:not( .has-checkout-must-login-notice ).woocommerce-checkout .woocommerce-NoticeGroup,
+body:not( .has-checkout-must-login-notice ) .fc-progress-bar,
+body:not( .has-checkout-must-login-notice ) .fc-inside {
+	@media (#{$bp-larger-than-desktop}) {
+		float: $alignment-left;
+		width: $checkout-steps-width--large-screen;
+		padding-#{ $alignment-left }: 0;
+		padding-#{ $alignment-right }: $checkout-column-gap--large-screen;
+	}
+}
+body:not( .has-checkout-must-login-notice ) .fc-checkout-header ~ .woocommerce-message,
+body:not( .has-checkout-must-login-notice ) .fc-checkout-header ~ .woocommerce-info,
+body:not( .has-checkout-must-login-notice ) .fc-checkout-header ~ .woocommerce-error {
+	width: calc( #{ $checkout-steps-width--large-screen } - #{ $checkout-column-gap--large-screen } );
+}
+
+
+
+body:not( .has-checkout-must-login-notice ) .fc-inside {
+	@media (#{$bp-larger-than-desktop}) {
+		padding-top: $global-spacing-tiny;
+	}
+}
+
+
+
+.fc-wrapper {
+	position: relative;
+}
+
+
+
+.fc-sidebar {
+	position: static;
+
+	@media (#{$bp-larger-than-desktop}) {
+		z-index: z( 'default' ) + 1;
+		float: $alignment-right;
+		width: $checkout-overview-width--large-screen;
+	}
+}
+
+.fc-sidebar__inner {
+	z-index: z( 'above' );
+
+	@media (#{$bp-larger-than-desktop}) {
+		position: relative;
+		width: 100%;
+		padding-top: $global-spacing-tiny;
+	}
+}
+// With admin bar
+.admin-bar .fc-wrapper .fc-sidebar.is-sticky .fc-sidebar__inner {
+	@media (#{$bp-larger-than-desktop}) {
+		padding-top: calc( #{ $global-spacing-tiny } + 32px ); // Use pixels to match styles of the WordPress Admin bar
+	}
+}
+
+
+
+
+
+// ------------------------------------
+// CHECKOUT WIDGETS
+// ------------------------------------
+.fc-checkout-header .widget,
+.fc-main .widget {
+	margin: 0;
+}
+
+
+
+
+
+// ------------------------------------
+// CLEAR FIX
+// ------------------------------------
+.fc-clearfix:before,
+.fc-clearfix:after {
+	@include clearfix();
+}

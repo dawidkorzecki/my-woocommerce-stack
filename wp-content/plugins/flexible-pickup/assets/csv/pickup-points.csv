@@ -1,0 +1,3 @@
+title;description;company;address;address_2;city;postal_code;lat;lng;cod;group
+"Point 2";;"Cookspur St 4";"Cookspur St 4";;London;"W1U 8AQ";51.5075707;-0.12954660000002605;no;
+"Point 1";;"George St 22";"George St 22";;London;"W1U 8AQ";51.51831259999999;-0.1528077000000394;no;"Group 1 > Group 2,Group 3"

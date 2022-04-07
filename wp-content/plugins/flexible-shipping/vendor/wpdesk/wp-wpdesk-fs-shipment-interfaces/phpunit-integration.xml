@@ -1,0 +1,28 @@
+<phpunit bootstrap="tests/integration/bootstrap.php"
+         backupGlobals="false"
+     >
+    <testsuites>
+        <testsuite>
+            <directory prefix="Test" suffix=".php">./tests/integration</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+
+    <logging>
+        <log type="junit" target="build-coverage/report.junit.xml"/>
+        <log type="coverage-html" target="build-coverage/coverage" charset="UTF-8" yui="true" highlight="true"/>
+        <log type="coverage-text" target="build-coverage/coverage.txt"/>
+        <log type="coverage-clover" target="build-coverage/clover.xml"/>
+    </logging>
+
+    <php>
+        <env name="WP_DEVELOP_DIR" value="/tmp/wordpress-develop"/>
+        <env name="WC_DEVELOP_DIR" value="/tmp/woocommerce"/>
+    </php>
+
+</phpunit>

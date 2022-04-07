@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="wpgb-icon">
+  <path data-cap="butt" fill="none" stroke="currentColor" stroke-miterlimit="10" d="M22,6H8c-3.3,0-6,2.7-6,6v1" stroke-linejoin="round" stroke-linecap="round"></path>
+  <path data-cap="butt" fill="none" stroke="currentColor" stroke-miterlimit="10" d="M2,18h14c3.3,0,6-2.7,6-6v-1" stroke-linejoin="round" stroke-linecap="round"></path>
+  <polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" points="18,10 22,6 18,2 " stroke-linejoin="round"></polyline>
+  <polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" points=" 6,14 2,18 6,22 " stroke-linejoin="round"></polyline>
+</svg>

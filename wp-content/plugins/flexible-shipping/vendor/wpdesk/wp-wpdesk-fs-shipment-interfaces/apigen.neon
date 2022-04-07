@@ -1,0 +1,27 @@
+destination: docs
+templateConfig: /app/theme-woocommerce/config.neon
+extensions: [php]
+source:
+    - classes
+exclude:
+    - vendor
+    - tests
+    - languages
+
+charset: [UTF-8]
+main: Wordpress plugin
+title: Plugin template more info
+baseUrl: "/"
+
+templateTheme: default
+php: false
+sourceCode: false
+tree: true
+deprecated: false
+todo: false
+download: false
+
+accessLevels:       
+    - public
+    - private
+    - protected

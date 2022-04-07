@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="wpgb-icon">
+  <polyline data-cap="butt" fill="none" stroke="currentColor" stroke-miterlimit="10" points="15.021,18.879 22.092,11.808 19.971,9.686 17.142,9.686 17.142,6.858 12.192,1.908 5.121,8.979 " stroke-linejoin="round" stroke-linecap="round"></polyline>
+  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" d="M4.414,9.686 c-1.202,1.202-1.202,3.041,0,4.243l1.414,1.414l-4.172,4.172c-0.707,0.707-0.849,1.838-0.283,2.687 c0.778,1.061,2.192,1.061,3.041,0.212l4.243-4.243l1.414,1.414c1.202,1.202,3.041,1.202,4.243,0l0.707-0.707L5.121,8.979 L4.414,9.686z" stroke-linejoin="round"></path>
+</svg>

@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-03-22 14:14-0700\n"
+"PO-Revision-Date: 2021-03-22 14:14-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/Admin/OneTeamSoftware.php:219
+msgid "Our Excellent Plugins"
+msgstr ""
+
+#: includes/Admin/OneTeamSoftware.php:245
+msgid "About Us"
+msgstr ""
+
+#: includes/Admin/OneTeamSoftware.php:253
+msgid "Contact Us"
+msgstr ""
+
+#: includes/Shipping/AbstractShippingMethod.php:150
+msgid "is invalid"
+msgstr ""
+
+#: includes/ShippingMethod.php:14 includes/ShippingPackages.php:81
+msgid "Shipping Packages"
+msgstr ""
+
+#: includes/ShippingMethod.php:17
+msgid ""
+"Groups products in the cart into shipping packages based on \"group by\" "
+"condition, which can be shipped with different shipping methods."
+msgstr ""
+
+#: includes/ShippingMethod.php:18
+msgid "Do you have any questions or requests?"
+msgstr ""
+
+#: includes/ShippingMethod.php:20
+msgid "We are here to help you!"
+msgstr ""
+
+#: includes/ShippingMethod.php:21
+msgid "Will you recommend <strong>Shipping Packages</strong> plugin to others?"
+msgstr ""
+
+#: includes/ShippingMethod.php:23
+msgid "Please take 1 minute to leave your review"
+msgstr ""
+
+#: includes/ShippingMethod.php:54
+msgid "Enable Shipping Package"
+msgstr ""
+
+#: includes/ShippingMethod.php:55
+msgid ""
+"Split Cart into Packages, according to the rules defined below, so different "
+"shipping method can be selected for each of the Packages."
+msgstr ""
+
+#: includes/ShippingMethod.php:64
+msgid "Enable Merge Shipping Packages"
+msgstr ""
+
+#: includes/ShippingMethod.php:66
+msgid ""
+"Merges products from one package into another shipping package based on the "
+"configured product conditions."
+msgstr ""
+
+#: includes/ShippingMethod.php:67 includes/ShippingMethod.php:85
+#: includes/ShippingMethod.php:103 includes/ShippingMethod.php:121
+msgid "Requires: "
+msgstr ""
+
+#: includes/ShippingMethod.php:82
+msgid "Enable Packages in Cart / Checkout Pages"
+msgstr ""
+
+#: includes/ShippingMethod.php:84
+msgid ""
+"Redesigns Cart, Checkout and Order Review pages to show contents grouped "
+"into packages with shipping method selection under each package."
+msgstr ""
+
+#: includes/ShippingMethod.php:100
+msgid "Enable Pay For Selected Items"
+msgstr ""
+
+#: includes/ShippingMethod.php:102
+msgid ""
+"Add-on for Markerplace Cart that allows customers to choose what items to "
+"pay for during checkout."
+msgstr ""
+
+#: includes/ShippingMethod.php:118
+msgid "Enable Package Orders"
+msgstr ""
+
+#: includes/ShippingMethod.php:120
+msgid ""
+"Create separate order for each Package, so they can be fulfilled "
+"independently."
+msgstr ""
+
+#: includes/ShippingMethod.php:135
+msgid "Debug"
+msgstr ""
+
+#: includes/ShippingMethod.php:140
+msgid "Debug Type"
+msgstr ""
+
+#: includes/ShippingMethod.php:142
+msgid "Error Log"
+msgstr ""
+
+#: includes/ShippingMethod.php:143
+msgid "Woocommerce Notice"
+msgstr ""
+
+#: includes/ShippingMethod.php:149
+msgid "Group By"
+msgstr ""
+
+#: includes/ShippingMethod.php:157
+msgid "Shipping Method Per"
+msgstr ""
+
+#: includes/ShippingMethod.php:159
+msgid "Package"
+msgstr ""
+
+#: includes/ShippingMethod.php:160
+msgid "Cart"
+msgstr ""
+
+#: includes/ShippingMethod.php:163
+#, php-format
+msgid ""
+"It allows to charge shipping fee per package or per cart. Only %s and %s can "
+"take advantage of it when it is set to \"Cart\""
+msgstr ""
+
+#: includes/ShippingMethod.php:169
+msgid "Use Auto Package Name"
+msgstr ""
+
+#: includes/ShippingMethod.php:171
+msgid ""
+"If enabled then package name, that is auto generated based on group by rule, "
+"will be displayed in the cart instead of the generic Shipping 1..."
+msgstr ""
+
+#: includes/ShippingMethod.php:181
+msgid "Allow Free Shipping"
+msgstr ""
+
+#: includes/ShippingMethod.php:183
+msgid "Only With Coupon"
+msgstr ""
+
+#: includes/ShippingMethod.php:184
+msgid "Without Coupon"
+msgstr ""
+
+#: includes/ShippingMethod.php:187
+msgid ""
+"Do you want to offer built-in Free Shipping method only when coupon applies "
+"to all the package items?"
+msgstr ""
+
+#: includes/ShippingMethod.php:197
+msgid "Need Better Shipping Solutions?"
+msgstr ""
+
+#: includes/ShippingMethod.php:207
+msgid "Shipping Restrictions for Shipping Classes"
+msgstr ""
+
+#: includes/ShippingMethod.php:211
+msgid "Packages Without Shipping Restrictions"
+msgstr ""
+
+#: includes/ShippingMethod.php:212
+msgid ""
+"How should we handle packages that do not have shipping restrictions "
+"configured?"
+msgstr ""
+
+#: includes/ShippingMethod.php:215
+msgid "Display all available shipping methods"
+msgstr ""
+
+#: includes/ShippingMethod.php:216
+msgid "Do not display any shipping method"
+msgstr ""
+
+#: includes/ShippingMethod.php:237
+msgid "Shipping Class"
+msgstr ""
+
+#: includes/ShippingMethod.php:238
+msgid "Product ID"
+msgstr ""
+
+#: includes/ShippingMethod.php:239
+msgid "Product Type"
+msgstr ""
+
+#: includes/ShippingMethod.php:240
+msgid "Attributes"
+msgstr ""
+
+#: includes/ShippingMethod.php:241
+msgid "Categories"
+msgstr ""
+
+#: includes/ShippingMethod.php:242
+msgid "First Category"
+msgstr ""
+
+#: includes/ShippingMethod.php:243
+msgid "Tags"
+msgstr ""
+
+#: includes/ShippingMethod.php:244
+msgid "First Tag"
+msgstr ""
+
+#: includes/ShippingMethod.php:245
+msgid "Post Author (Vendor)"
+msgstr ""
+
+#: includes/ShippingMethod.php:246 includes/ShippingPackages.php:520
+msgid "Free Shipping"
+msgstr ""
+
+#: includes/ShippingMethod.php:251
+msgid "Taxonomy: "
+msgstr ""
+
+#: includes/ShippingMethod.php:256
+msgid "Post Meta: "
+msgstr ""
+
+#: includes/ShippingMethod.php:272
+msgid "advanced Free Shipping scenarios for individual Shipping Packages."
+msgstr ""
+
+#: includes/ShippingMethod.php:279
+msgid ""
+"advanced Table Rate shipping method conditions for individual Shipping "
+"Packages."
+msgstr ""
+
+#: includes/ShippingMethod.php:286
+msgid ""
+"live shipping rates from 100+ carriers, shipping labels, tracking history "
+"and automatic emails with shipment status updates."
+msgstr ""
+
+#: includes/ShippingMethod.php:351
+msgid ""
+"If nothing is selected then all shipping methods will be available for each "
+"shipping class"
+msgstr ""
+
+#: includes/ShippingMethod.php:359
+msgid "No shipping classes have been created yet..."
+msgstr ""
+
+#: includes/ShippingPackages.php:89
+msgid "Settings"
+msgstr ""

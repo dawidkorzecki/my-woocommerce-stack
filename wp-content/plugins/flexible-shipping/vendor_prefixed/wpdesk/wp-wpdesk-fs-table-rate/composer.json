@@ -1,0 +1,43 @@
+{
+    "name": "wpdesk\/wp-wpdesk-fs-table-rate",
+    "authors": [
+        {
+            "name": "Krzysiek",
+            "email": "krzysiek@wpdesk.pl"
+        },
+        {
+            "name": "Grzegorz",
+            "email": "grzegorz@wpdesk.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "wpdesk\/wp-view": "^1.1",
+        "psr\/log": "^1.1",
+        "wpdesk\/wp-plugin-flow": "^3.0"
+    },
+    "require-dev": {
+        "phpunit\/phpunit": "<7",
+        "mockery\/mockery": "^1.2",
+        "10up\/wp_mock": "^0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "FSVendor\\WPDesk\\FS\\TableRate\\": "src\/"
+        }
+    },
+    "autoload-dev": {},
+    "extra": {
+        "text-domain": "wp-wpdesk-fs-table-rate",
+        "translations-folder": "lang",
+        "po-files": {
+            "pl_PL": "pl_PL.po"
+        }
+    },
+    "scripts": {
+        "phpunit-unit": "phpunit --configuration phpunit-unit.xml --coverage-text --colors=never",
+        "phpunit-unit-fast": "phpunit --configuration phpunit-unit.xml --no-coverage",
+        "phpunit-integration": "phpunit --configuration phpunit-integration.xml --coverage-text --colors=never",
+        "phpunit-integration-fast": "phpunit --configuration phpunit-integration.xml --no-coverage"
+    }
+}

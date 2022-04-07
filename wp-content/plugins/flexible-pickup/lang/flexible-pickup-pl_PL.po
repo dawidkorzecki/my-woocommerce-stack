@@ -1,0 +1,1169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flexible Pickup\n"
+"POT-Creation-Date: 2017-12-03 18:20+0100\n"
+"PO-Revision-Date: 2017-12-03 18:23+0100\n"
+"Last-Translator: wp-kat <admin@wp-kat.net>\n"
+"Language-Team: Maciej Swoboda <support@wpdesk.pl>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/class-cpt.php:42 classes/class-cpt.php:46
+msgid "Pickup Points"
+msgstr "Wszystkie punkty odbioru"
+
+#: classes/class-cpt.php:43
+msgid "Pickup Point"
+msgstr "Punkt odbioru"
+
+#: classes/class-cpt.php:44 classes/class-flexible-pickup.php:212
+#: classes/class-flexible-shipping-hooks.php:28
+#: classes/class-flexible-shipping-shipment.php:80
+#: classes/class-shipping-method.php:21 classes/class-shipping-method.php:25
+#: classes/views/admin-footer.php:3
+msgid "Flexible Pickup"
+msgstr "Flexible Pickup"
+
+#: classes/class-cpt.php:47
+msgid "View Pickup Points"
+msgstr "Wyświetl punkty odbioru"
+
+#: classes/class-cpt.php:48 classes/class-cpt.php:49
+msgid "Add new Pickup Point"
+msgstr "Dodaj nowy punkt odbioru"
+
+#: classes/class-cpt.php:50
+msgid "Edit Pickup Point"
+msgstr "Edytuj punkt odbioru"
+
+#: classes/class-cpt.php:51
+msgid "Save Pickup Point"
+msgstr "Zapisz punkt odbioru"
+
+#: classes/class-cpt.php:52
+msgid "Seach Pickup Points"
+msgstr "Szukaj punktów odbioru"
+
+#: classes/class-cpt.php:53
+msgid "Pickup Point not found"
+msgstr "Nie punktu odbioru"
+
+#: classes/class-cpt.php:54
+msgid "Pickup Point not found in trash"
+msgstr "Nie znaleziono punktów odbioru w koszu"
+
+#: classes/class-cpt.php:56
+msgid "Pickup Points."
+msgstr "Punkty Odbioru."
+
+#: classes/class-cpt.php:76
+msgctxt "taxonomy general name"
+msgid "Groups"
+msgstr "Grupy"
+
+#: classes/class-cpt.php:77
+msgctxt "taxonomy singular name"
+msgid "Group"
+msgstr "Grupa"
+
+#: classes/class-cpt.php:78
+msgid "Search Groups"
+msgstr "Szukaj grup"
+
+#: classes/class-cpt.php:79
+msgid "All Groups"
+msgstr "Wszystkie grupy"
+
+#: classes/class-cpt.php:80
+msgid "Parent Group"
+msgstr "Grupa nadrzędna"
+
+#: classes/class-cpt.php:81
+msgid "Parent Group:"
+msgstr "Grupa nadrzędna:"
+
+#: classes/class-cpt.php:82
+msgid "Edit Group"
+msgstr "Edytuj grupę"
+
+#: classes/class-cpt.php:83
+msgid "Update Group"
+msgstr "Aktualizuj grupę"
+
+#: classes/class-cpt.php:84
+msgid "Add New Group"
+msgstr "Dodaj nową grupę"
+
+#: classes/class-cpt.php:85
+msgid "New Group Name"
+msgstr "Nazwa nowej grupy"
+
+#: classes/class-cpt.php:86
+msgid "Pickup Points Groups"
+msgstr "Grupy punktów odbioru"
+
+#: classes/class-cpt.php:109
+msgid "Import Pickup Points from CSV"
+msgstr "Importuj punkty odbioru z pliku CSV"
+
+#: classes/class-cpt.php:116
+msgid "Point details"
+msgstr "Szczegóły punktu"
+
+#: classes/class-cpt.php:182 classes/class-settings-hooks.php:90
+#: classes/class-settings-hooks.php:102
+#: classes/views/pickup-point-settings.php:8
+#: classes/views/pickup-point-settings.php:20
+msgid "Address"
+msgstr "Adres"
+
+#: classes/class-cpt.php:237 classes/class-cpt.php:241
+#: classes/class-flexible-shipping-hooks.php:65
+#: classes/class-flexible-shipping-hooks.php:74
+#: classes/class-flexible-shipping-hooks.php:83
+msgid "No"
+msgstr "Nie"
+
+#: classes/class-cpt.php:244 classes/class-flexible-shipping-hooks.php:66
+msgid "Yes"
+msgstr "Tak"
+
+#: classes/class-flexible-pickup.php:104 classes/class-flexible-pickup.php:142
+msgid "Pickup point not found!"
+msgstr "Nie znaleziono punktu odbioru!"
+
+#: classes/class-flexible-pickup.php:170
+msgid "Saved"
+msgstr "Zapisano"
+
+#: classes/class-flexible-pickup.php:174
+msgid "Order not found!"
+msgstr "Nie znaleziono zamówienia!"
+
+#: classes/class-flexible-pickup.php:228 classes/class-flexible-pickup.php:316
+#: classes/class-flexible-shipping-shipment.php:39
+msgid "Select pickup point"
+msgstr "Wybierz punkt odbioru"
+
+#: classes/class-flexible-pickup.php:374 classes/class-flexible-pickup.php:514
+#, php-format
+msgid "Shipping"
+msgid_plural "Shipping %d"
+msgstr[0] "Przesyłka"
+msgstr[1] "Przesyłka %d"
+msgstr[2] "Przesyłka %d"
+
+#: classes/class-flexible-pickup.php:414
+#, php-format
+msgid "Select pickup point (%s)"
+msgstr "Wybierz punkt odbioru (%s)"
+
+#: classes/class-flexible-pickup.php:515
+#, php-format
+msgid "Please select pickup point (%s)"
+msgstr "Proszę wybrać punkt odbioru (%s)"
+
+#: classes/class-flexible-printing-integration.php:39
+#, php-format
+msgid "Printing error: %s"
+msgstr "Błąd drukowania: %s"
+
+#: classes/class-flexible-printing-integration.php:84
+#, php-format
+msgid "Print on: %s"
+msgstr "Drukuj na: %s"
+
+#: classes/class-flexible-shipping-hooks.php:42
+msgid "All pickup points"
+msgstr "Wszystkie punkty odbioru"
+
+#: classes/class-flexible-shipping-hooks.php:45
+msgid "Pickup points group"
+msgstr "Grupa punktów odbioru"
+
+#: classes/class-flexible-shipping-hooks.php:49
+#: classes/class-flexible-shipping-hooks.php:58
+#: classes/class-flexible-shipping-hooks.php:76
+#: classes/class-flexible-shipping-hooks.php:85
+#, php-format
+msgid "More options available in %sPRO version. →%s"
+msgstr "Więcej opcji dostępne w %swersji PRO. →%s"
+
+#: classes/class-flexible-shipping-hooks.php:52
+msgid "Display pickup points as"
+msgstr "Wyświetlaj punkty odbioru jako"
+
+#: classes/class-flexible-shipping-hooks.php:56
+msgid "Radio"
+msgstr "Radio"
+
+#: classes/class-flexible-shipping-hooks.php:61
+msgid "Show map selector"
+msgstr "Pokaż na mapie"
+
+#: classes/class-flexible-shipping-hooks.php:70
+msgid "Show points details"
+msgstr "Pokaż szczegóły punktu"
+
+#: classes/class-flexible-shipping-hooks.php:79
+msgid "COD"
+msgstr "Pobranie"
+
+#: classes/class-flexible-shipping-hooks.php:150
+#: classes/class-settings-hooks.php:86 classes/class-settings-hooks.php:95
+msgid "None"
+msgstr "Brak"
+
+#: classes/class-flexible-shipping-shipment.php:88
+msgid "Shipment saved."
+msgstr "Przesyłka została zapisana."
+
+#: classes/class-flexible-shipping-shipment.php:95
+msgid "Shipment created."
+msgstr "Przesyłka została utworzona."
+
+#: classes/class-flexible-shipping-shipment.php:102
+msgid "Shipment canceled."
+msgstr "Przesyłka została anulowana."
+
+#: classes/class-flexible-shipping-shipment.php:108
+#, php-format
+msgid "Unknown action: \"%s\""
+msgstr "Nieznana akcja: \"%s\""
+
+#: classes/class-flexible-shipping-shipment.php:150
+#, php-format
+msgid "Label not available for status %s."
+msgstr "Etykieta niedostępna dla statusu %s."
+
+#: classes/class-settings-hooks.php:47
+msgid "Flexible Pickup Settings"
+msgstr "Ustawienia Flexible Pickup"
+
+#: classes/class-settings-hooks.php:49 classes/class-settings-hooks.php:58
+#: classes/class-settings-hooks.php:74 classes/wpdesk/class-plugin.php:202
+#: flexible-pickup.php:134
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: classes/class-settings-hooks.php:59 classes/class-settings-hooks.php:77
+msgid "Printing"
+msgstr "Drukowanie"
+
+#: classes/class-settings-hooks.php:87 classes/class-settings-hooks.php:96
+msgid "Title"
+msgstr "Tytuł"
+
+#: classes/class-settings-hooks.php:88 classes/class-settings-hooks.php:98
+#: classes/views/pickup-point-settings.php:44
+msgid "City"
+msgstr "Miasto"
+
+#: classes/class-settings-hooks.php:89 classes/class-settings-hooks.php:100
+#: classes/views/pickup-point-settings.php:36
+msgid "Postal code"
+msgstr "Kod pocztowy"
+
+#: classes/class-settings-hooks.php:91 classes/class-settings-hooks.php:104
+msgid "Address 2"
+msgstr "Adres 2"
+
+#: classes/class-settings-hooks.php:97
+msgid "Title DESC"
+msgstr "Tytuł MALEJĄCO"
+
+#: classes/class-settings-hooks.php:99
+msgid "City DESC"
+msgstr "Miasto MALEJĄCO"
+
+#: classes/class-settings-hooks.php:101
+msgid "Postal code DESC"
+msgstr "Kod pocztowy MALEJĄCO"
+
+#: classes/class-settings-hooks.php:103
+msgid "Address DESC"
+msgstr "Adres MALEJĄCO"
+
+#: classes/class-settings-hooks.php:105
+msgid "Address 2 DESC"
+msgstr "Adres 2 MALEJĄCO"
+
+#: classes/class-settings-hooks.php:109
+msgid "Enable automatic printing."
+msgstr "Włącz automatyczne drukowanie."
+
+#: classes/class-settings-hooks.php:113
+#, php-format
+msgid "Enable automatic printing. To change printer settings click %shere%s"
+msgstr ""
+"Włącz automatyczne drukowanie. Aby zmienić ustawienia drukarki kliknij "
+"%stutaj%s"
+
+#: classes/class-settings-hooks.php:122
+#, php-format
+msgid ""
+"Print shipment labels directly to printers. %sBuy Flexible Printing plugin%s."
+msgstr ""
+"Drukuj etykiety bezpośrednio na drukarce. %sKup wtyczkę Flexible Printing%s."
+
+#: classes/class-settings-hooks.php:130
+msgid "Checkout"
+msgstr "Zamówienie"
+
+#: classes/class-settings-hooks.php:138
+msgid "Where to display pickup point section on checkout page"
+msgstr "Pozycja wyświetlania sekcji punktu odbioru na stronie zamówienia"
+
+#: classes/class-settings-hooks.php:144
+msgid "Pickup point position"
+msgstr "Pozycja punktu odbioru"
+
+#: classes/class-settings-hooks.php:148
+msgid "After order total"
+msgstr "Po podsumowaniu zamówienia"
+
+#: classes/class-settings-hooks.php:149
+msgid "After order shipping"
+msgstr "Po opcjach wysyłki zamówienia"
+
+#: classes/class-settings-hooks.php:155
+msgid "Display fields"
+msgstr "Pokaż pola"
+
+#: classes/class-settings-hooks.php:163
+msgid "Fields which will be displayed on pickup point"
+msgstr "Pola, które będą wyświetlane dla punktów odbioru"
+
+#: classes/class-settings-hooks.php:169 classes/class-settings-hooks.php:223
+msgid "Field 1"
+msgstr "Pole 1"
+
+#: classes/class-settings-hooks.php:177 classes/class-settings-hooks.php:231
+msgid "Field 2"
+msgstr "Pole 2"
+
+#: classes/class-settings-hooks.php:185 classes/class-settings-hooks.php:239
+msgid "Field 3"
+msgstr "Pole 3"
+
+#: classes/class-settings-hooks.php:193 classes/class-settings-hooks.php:247
+msgid "Field 4"
+msgstr "Pole 4"
+
+#: classes/class-settings-hooks.php:201 classes/class-settings-hooks.php:255
+msgid "Field 5"
+msgstr "Pole 5"
+
+#: classes/class-settings-hooks.php:209
+msgid "Sort by"
+msgstr "Sortowanie"
+
+#: classes/class-settings-hooks.php:217
+msgid "Fields used to pickup point sort"
+msgstr "Pola, które zostaną użyte do sortowania punktów odbioru"
+
+#: classes/class-settings-hooks.php:268
+msgid "HTML"
+msgstr "HTML"
+
+#: classes/class-settings-hooks.php:270
+msgid "Labels format"
+msgstr "Format etykiet"
+
+#: classes/class-settings-hooks.php:272
+msgid "PDF"
+msgstr "PDF"
+
+#: classes/class-settings-hooks.php:275
+#, php-format
+msgid ""
+"To create documents in PDF format you must install %sFlexible PDF plugin%s."
+msgstr ""
+"Aby tworzyć dokumenty w formacie PDF musisz zainstalować %swtyczkę Flexible "
+"PDF%s."
+
+#: classes/class-settings-hooks.php:278
+msgid "Labels and manifests format"
+msgstr "Format etykiet i protokołów"
+
+#: classes/class-settings-hooks.php:291 classes/class-settings-hooks.php:299
+msgid "Auto print"
+msgstr "Automatyczne drukowanie"
+
+#: classes/class-shipping-method.php:22
+#, php-format
+msgid "Flexible Pickup with Flexible Shipping. %sRead documentation &rarr;%s"
+msgstr ""
+"Flexible Pickup z Flexible Shipping. %sPrzeczytaj dokumentację &rarr;%s"
+
+#: classes/class-tgm-plugin-activation.php:334 flexible-pickup.php:295
+msgid "Install Required Plugins"
+msgstr "Zainstaluj wymagane wtyczki"
+
+#: classes/class-tgm-plugin-activation.php:335 flexible-pickup.php:296
+msgid "Install Plugins"
+msgstr "Zainstaluj wtyczki"
+
+#: classes/class-tgm-plugin-activation.php:337 flexible-pickup.php:298
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Zainstaluj wtyczkę: %s"
+
+#: classes/class-tgm-plugin-activation.php:339 flexible-pickup.php:300
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Aktualizacja wtyczki: %s"
+
+#: classes/class-tgm-plugin-activation.php:340 flexible-pickup.php:301
+msgid "Something went wrong with the plugin API."
+msgstr "Coś poszło nie tak z API wtyczek."
+
+#: classes/class-tgm-plugin-activation.php:343 flexible-pickup.php:304
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/class-tgm-plugin-activation.php:349 flexible-pickup.php:310
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/class-tgm-plugin-activation.php:355 flexible-pickup.php:316
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/class-tgm-plugin-activation.php:361 flexible-pickup.php:322
+#, fuzzy, php-format
+#| msgid "Label not available for status %s."
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Etykieta niedostępna dla statusu %s."
+msgstr[1] "Etykieta niedostępna dla statusu %s."
+msgstr[2] "Etykieta niedostępna dla statusu %s."
+
+#: classes/class-tgm-plugin-activation.php:367 flexible-pickup.php:328
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Jedna z wymaganych wtyczek jest aktualnie nieaktywna: %1$s."
+msgstr[1] "Następujące wymagane wtyczki są aktualnie nieaktywne: %1$s."
+msgstr[2] "Następujące wymagane wtyczki są aktualnie nieaktywne: %1$s."
+
+#: classes/class-tgm-plugin-activation.php:373 flexible-pickup.php:334
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Jedna z zalecanych wtyczek jest aktualnie nieaktywna: %1$s."
+msgstr[1] "Następujące polecane wtyczki są aktualnie nieaktywne: %1$s."
+msgstr[2] "Następujące polecane wtyczki są aktualnie nieaktywne: %1$s."
+
+#: classes/class-tgm-plugin-activation.php:378 flexible-pickup.php:339
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/class-tgm-plugin-activation.php:383 flexible-pickup.php:344
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/class-tgm-plugin-activation.php:388 flexible-pickup.php:349
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/class-tgm-plugin-activation.php:392 flexible-pickup.php:353
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:393
+#: classes/class-tgm-plugin-activation.php:920
+#: classes/class-tgm-plugin-activation.php:2626
+#: classes/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:394
+#: classes/class-tgm-plugin-activation.php:3252 flexible-pickup.php:354
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:395
+#: classes/class-tgm-plugin-activation.php:3045 flexible-pickup.php:355
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/class-tgm-plugin-activation.php:397 flexible-pickup.php:357
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:399 flexible-pickup.php:359
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:401 flexible-pickup.php:361
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:402 flexible-pickup.php:362
+msgid "Dismiss this notice"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:403 flexible-pickup.php:363
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:404 flexible-pickup.php:364
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:608
+#, fuzzy
+#| msgid "required"
+msgid "Update Required"
+msgstr "wymagane"
+
+#: classes/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:1027
+#: classes/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:1214
+#: classes/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2366
+#, fuzzy
+#| msgid "required"
+msgid "Required"
+msgstr "wymagane"
+
+#: classes/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2423
+#, fuzzy
+#| msgid "required"
+msgid "Requires Update"
+msgstr "wymagane"
+
+#: classes/class-tgm-plugin-activation.php:2426
+#, fuzzy
+#| msgid "Update Group"
+msgid "Update recommended"
+msgstr "Aktualizuj grupę"
+
+#: classes/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: classes/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2647
+#, fuzzy
+#| msgid "Status:"
+msgid "Status"
+msgstr "Status:"
+
+#: classes/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2701
+#, fuzzy, php-format
+#| msgid "Update Group"
+msgid "Update %2$s"
+msgstr "Aktualizuj grupę"
+
+#: classes/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2816
+#, fuzzy
+#| msgid "Update Group"
+msgid "Update"
+msgstr "Aktualizuj grupę"
+
+#: classes/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3602
+#: classes/class-tgm-plugin-activation.php:3610
+#, fuzzy
+#| msgid "Show points details"
+msgid "Show Details"
+msgstr "Pokaż szczegóły punktu"
+
+#: classes/class-tgm-plugin-activation.php:3602
+#: classes/class-tgm-plugin-activation.php:3610
+#, fuzzy
+#| msgid "Point details"
+msgid "Hide Details"
+msgstr "Szczegóły punktu"
+
+#: classes/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: classes/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: classes/views/order-metabox-content.php:9 templates/order-items-table.php:22
+msgid "Pickup point"
+msgstr "Punkt odbioru"
+
+#: classes/views/order-metabox-content.php:31
+msgid "Shipment ID:"
+msgstr "ID przesyłki:"
+
+#: classes/views/order-metabox-content.php:34
+msgid "Status:"
+msgstr "Status:"
+
+#: classes/views/order-metabox-content.php:38
+msgid "Create"
+msgstr "Utwórz"
+
+#: classes/views/order-metabox-content.php:41
+#: classes/views/order-metabox.php:23
+msgid "Save"
+msgstr "Zapisz"
+
+#: classes/views/order-metabox-content.php:44
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: classes/views/order-metabox-content.php:47
+msgid "Get label"
+msgstr "Pobierz etykietę"
+
+#: classes/views/order-metabox-content.php:59
+#, php-format
+msgid "Drukuj na: %s"
+msgstr "Drukuj na: %s"
+
+#: classes/views/order-metabox.php:7
+#, php-format
+msgid "Pickup point for %s (%s)"
+msgstr "Punkt odbioru dla %s (%s)"
+
+#: classes/views/pickup-point-details.php:5
+#: templates/pickup-point-details.php:17
+msgid "Selected point details:"
+msgstr "Szczegóły wybranego punktu:"
+
+#: classes/views/pickup-point-settings.php:12
+msgid "Company"
+msgstr "Firma"
+
+#: classes/views/pickup-point-settings.php:28
+msgid "Address line 2"
+msgstr "Adres 2"
+
+#: classes/wpdesk/class-helper.php:34
+#, php-format
+msgid ""
+"The %s%s%s License Key has not been activated, so the plugin is inactive! "
+"%sClick here%s to activate the license key and the plugin."
+msgstr ""
+"Klucz licencyjny wtyczki %s%s%s nie został aktywowany, więc wtyczka jest "
+"nieaktywna! %sKliknij tutaj%s, aby aktywować klucz licencyjny wtyczki."
+
+#: classes/wpdesk/class-plugin.php:189 flexible-pickup.php:136
+msgid "Support"
+msgstr "Wsparcie"
+
+#: classes/wpdesk/class-plugin.php:195
+msgid "Docs"
+msgstr "Docs"
+
+#: classes/wpdesk/class-settings.php:87
+#: classes/wpdesk/settings-api/class.s214-settings.php:1230
+msgid "Insert Image"
+msgstr "Dodaj obraz"
+
+#: classes/wpdesk/class-settings.php:88
+#: classes/wpdesk/settings-api/class.s214-settings.php:1231
+msgid "Select Image"
+msgstr "Wybierz obraz"
+
+#: classes/wpdesk/settings-api/class.s214-settings.php:144
+#: classes/wpdesk/settings-api/class.s214-settings.php:146
+msgid "Section214 Settings"
+msgstr "Ustawienia Section214"
+
+#: classes/wpdesk/settings-api/class.s214-settings.php:609
+msgid "Settings updated."
+msgstr "Ustawienia zostały zaktualizowane."
+
+#: classes/wpdesk/settings-api/class.s214-settings.php:996
+msgid ""
+"To copy the system info, click below then press Ctrl + C (PC) or Cmd + C "
+"(Mac)."
+msgstr ""
+
+#: classes/wpdesk/settings-api/class.s214-settings.php:999
+msgid "Download System Info File"
+msgstr ""
+
+#: classes/wpdesk/settings-api/class.s214-settings.php:1079
+#, fuzzy
+msgid "Upload File"
+msgstr "Wybierz plik do importu"
+
+#: classes/wpdesk/settings-api/class.s214-settings.php:1109
+msgid "Deactivate License"
+msgstr "Dezaktywuj klucz licencyjny"
+
+#: classes/wpdesk/settings-api/class.s214-settings.php:1140
+#, php-format
+msgid ""
+"The callback function used for the <strong>%s</strong> setting is missing."
+msgstr ""
+
+#: flexible-pickup.php:135
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: flexible-pickup.php:145
+msgid "required"
+msgstr "wymagane"
+
+#: flexible-pickup.php:252
+msgid "Flexible Shipping Plugin"
+msgstr "Wtyczka Flexible Shipping"
+
+#: flexible-pickup.php:262
+msgid "Flexible PDF Plugin"
+msgstr "Wtyczka Flexible PDF"
+
+#: templates/label.php:4
+#, php-format
+msgid "Flexible Pickup Label for shipment: %s"
+msgstr "Etykieta do przesyłki: %s"
+
+#: templates/label.php:45
+msgid "Receiver:"
+msgstr "Odbiorca:"
+
+#: templates/label.php:114
+msgid "Pickup point:"
+msgstr "Punkt odbioru:"
+
+#: templates/label.php:136
+#, php-format
+msgid "Order: %s"
+msgstr "Zamówienie: %s"
+
+#: templates/label.php:143
+#, php-format
+msgid "Shipment: %s"
+msgstr "Przesyłka: %s"
+
+#: templates/label.php:152
+msgid "COD Amount:"
+msgstr "Wartość pobrania:"
+
+#: templates/map-selector.php:65
+msgid "Select this point"
+msgstr "Wybierz ten punkt"
+
+#: templates/map-selector.php:214
+#, php-format
+msgid ""
+"Please enter Google Maps API Key in plugin %ssettings%s or contact site "
+"administrator."
+msgstr ""
+"Wprowadź Klucz API dla Map Google w %sustawieniach%s wtyczki lub skontaktuj "
+"się z administratorem sklepu."
+
+#: templates/map-selector.php:219
+msgid "Type location: "
+msgstr "Wprowadź lokalizację:"
+
+#: templates/order-items-table.php:18
+msgid "Pickup points"
+msgstr "Punkty odbioru"
+
+#: templates/select-pickup-point-review_order_after_order_total.php:22
+#: templates/select-pickup-point-review_order_after_shipping.php:23
+msgid "Select point on map"
+msgstr "Wybierz punkt na mapie"
+
+#~ msgid ""
+#~ "<a href=\"%s\">Install the WP Desk Helper plugin</a> to activate and get "
+#~ "updates for your WP Desk plugins."
+#~ msgstr ""
+#~ "<a href=\"%s\">Zainstaluj wtyczkę WP Desk Helper</a>, aby aktywować i "
+#~ "otrzymywać aktualizacje wtyczek WP Desk."
+
+#~ msgid ""
+#~ "<a href=\"%s\">Activate the WP Desk Helper plugin</a> to activate and get "
+#~ "updates for your WP Desk plugins."
+#~ msgstr ""
+#~ "<a href=\"%s\">Włącz wtyczkę WP Desk Helper</a>, aby aktywować i "
+#~ "otrzymywać aktualizacje wtyczek WP Desk."
+
+#~ msgid ""
+#~ "Flexible Pickup requires Flexible Shipping plugin version 1.9.2 or later. "
+#~ msgstr ""
+#~ "Wtyczka Flexible Pickup wymaga wtyczki Flexible Shipping w wersji 1.9.2 "
+#~ "lub nowszej."
+
+#~ msgid ""
+#~ "Flexible Pickup requires Flexible Shipping plugin. %sInstall Flexible "
+#~ "Shipping →%s"
+#~ msgstr ""
+#~ "Wtyczka Flexible Pickup wymaga wtyczki Flexible Shipping. %sZainstaluj "
+#~ "Flexible Shipping →%s"
+
+#~ msgid ""
+#~ "Flexible Pickup requires Flexible Shipping plugin. %sActivate Flexible "
+#~ "Shipping →%s"
+#~ msgstr ""
+#~ "Wtyczka Flexible Pickup wymaga wtyczki Flexible Shipping. %sWłącz "
+#~ "Flexible Shipping →%s"
+
+#, fuzzy
+#~| msgid ""
+#~| "Flexible Shipping PRO requires Flexible Shipping plugin. <a href=\"%s"
+#~| "\">Install Flexible Shipping →</a>"
+#~ msgid ""
+#~ "Flexible Pickup requires Flexible Shipping plugin. <a href=\"%s\">Install "
+#~ "Flexible Shipping →</a>"
+#~ msgstr ""
+#~ "Flexible Shipping PRO wymaga wtyczki Flexible Shipping. <a href=\"%s"
+#~ "\">Zainstaluj Flexible Shipping →</a>"
+
+#~ msgid "WP Desk"
+#~ msgstr "WP Desk"
+
+#~ msgid "Maximum cost"
+#~ msgstr "Maksymalny koszt"
+
+#~ msgid ""
+#~ "Set a maximum cost of shipping. This will override the costs configured "
+#~ "below."
+#~ msgstr ""
+#~ "Ustaw maksymalny koszt wysyłki. To nadpisze koszty ustawione w regułach."
+
+#~ msgid "Highest cost"
+#~ msgstr "Najwyższy koszt"
+
+#~ msgid "Item"
+#~ msgstr "Sztuka"
+
+#~ msgid "Cart line item"
+#~ msgstr "Pozycja w koszyku"
+
+#~ msgid "Any class (must be set)"
+#~ msgstr "Dowolna klasa (musi być ustawiona)"
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "Wystąpił nieoczekiwany błąd HTTP podczas zapytania API.</p> <p><a "
+#~ "href=„?” onclick=„document.location.reload(); return false;”>Spróbuj "
+#~ "ponownie</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Wystąpił nieznany błąd"
+
+#~ msgid "Additional cost"
+#~ msgstr "Dodatkowy koszt"
+
+#~ msgid "Enter additional shipping cost based on the Value field."
+#~ msgstr "Wpisz dodatkowy koszt bazujący na polu Wartość."
+
+#~ msgid "Value"
+#~ msgstr "Wartość"
+
+#~ msgid "Value for additional cost."
+#~ msgstr "Wartość dodatkowego kosztu."
+
+#~ msgid "Select shipping class that the rule applies to."
+#~ msgstr "Wybierz klasę wysyłkową, do której ma być stosowana reguła."
+
+#~ msgid "Stop"
+#~ msgstr "Zatrzymaj"
+
+#~ msgid "When this rule is matched stop calculating the following rules."
+#~ msgstr ""
+#~ "Jeśli zostanie spełniona wybrana reguła, zatrzymaj obliczanie kolejnych "
+#~ "reguł."
+
+#~ msgid "When this rule is matched do not show it in the checkout."
+#~ msgstr ""
+#~ "Jeśli zostanie spełniona wybrana reguła, nie pokazuj jej w zamówieniu."
+
+#~ msgid "https://www.wpdesk.net/products/flexible-shipping-pro-woocommerce/"
+#~ msgstr "https://www.wpdesk.pl/sklep/flexible-shipping-pro-woocommerce/"
+
+#~ msgid ""
+#~ "Extends the free version of Flexible Shipping by adding advanced pro "
+#~ "features."
+#~ msgstr ""
+#~ "Rozszerza bezpłatną wersję Flexible Shipping poprzez dodanie "
+#~ "zaawansowanych ustawień."
+
+#~ msgid "https://www.wpdesk.net/"
+#~ msgstr "https://www.wpdesk.pl/"

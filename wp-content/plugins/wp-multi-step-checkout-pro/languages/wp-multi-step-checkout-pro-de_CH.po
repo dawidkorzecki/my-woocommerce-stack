@@ -1,0 +1,338 @@
+# Copyright (C) 2017 Multi-Step Checkout Pro for WooCommerce
+# This file is distributed under the same license as the Multi-Step Checkout Pro for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Multi-Step Checkout Pro for WooCommerce 2.21.1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-02-14T20:38:23+01:00\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: wp-multi-step-checkout-pro\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/form-checkout.php:72
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer, please proceed to the Billing &amp; Shipping "
+"section."
+msgstr ""
+"Wenn du schon einmal bei uns bestellt hast, gib bitte deinen Benutzernamen bzw. "
+"E-Mail und dein Passwort ein. Falls du das erste mal bestellst, fülle bitte die "
+"Zahlungs- und Versandangaben unten aus."
+
+#: includes/form-checkout.php:120 includes/settings-array.php:153
+#: includes/settings-array.php:155
+msgid "Payment"
+msgstr "Zahlung"
+
+#: includes/settings-array.php:11
+msgid "Which Steps to show"
+msgstr ""
+
+#: includes/settings-array.php:17
+msgid "Show the <code>Shipping</code> step"
+msgstr "Den Schritt <code>Versand</code> anzeigen"
+
+#: includes/settings-array.php:23
+msgid "Show the <code>Login</code> step"
+msgstr ""
+"Den Schritt <code>Login\n"
+"</code> anzeigen"
+
+#: includes/settings-array.php:29
+msgid "Show the <code>Billing</code> and the <code>Shipping</code> steps together"
+msgstr "Die Schritte <code>Rechnung</code> und <code>Versand</code> kombiniert anzeigen"
+
+#: includes/settings-array.php:35
+msgid "Show the <code>Order</code> and the <code>Payment</code> steps together"
+msgstr ""
+"Die Schritte <code>Bestellung</code> und <code>Zahlung</code> kombiniert "
+"anzeigen"
+
+#: includes/settings-array.php:42
+msgid "Functionality"
+msgstr ""
+
+#: includes/settings-array.php:48
+msgid "Validate the fields during each step"
+msgstr ""
+
+#: includes/settings-array.php:49
+msgid ""
+"The default WooCommerce validation is done when clicking the Place Order button. "
+"With this option the validation is performed when trying to move to the next "
+"step"
+msgstr ""
+
+#: includes/settings-array.php:56
+msgid "Clickable Steps"
+msgstr ""
+
+#: includes/settings-array.php:57
+msgid "The user can click on the steps in order to get to the next one."
+msgstr ""
+
+#: includes/settings-array.php:64
+msgid "Enable the keyboard navigation"
+msgstr ""
+
+#: includes/settings-array.php:65
+msgid "Use the keyboard's left and right keys to move between the checkout steps"
+msgstr ""
+
+#: includes/settings-array.php:72
+msgid "Additional Elements"
+msgstr ""
+
+#: includes/settings-array.php:78
+msgid "Show the <code>Back to Cart</code> button"
+msgstr "<code>Zurück zum Warenkorb</code> Button anzeigen"
+
+#: includes/settings-array.php:84
+msgid "Show registration form in the Login step"
+msgstr ""
+
+#: includes/settings-array.php:88
+msgid ""
+"The registration form will be shown next to the login form, it will not replace "
+"it"
+msgstr ""
+
+#: includes/settings-array.php:92
+msgid "Add product thumbnails to the Order Review section"
+msgstr ""
+
+#: includes/settings-array.php:101
+msgid "Main Color"
+msgstr "Die Hauptfarbe"
+
+#: includes/settings-array.php:107
+msgid "Template"
+msgstr ""
+
+#: includes/settings-array.php:109
+msgid "default"
+msgstr ""
+
+#: includes/settings-array.php:111
+msgid "Default"
+msgstr ""
+
+#: includes/settings-array.php:112
+msgid "Material Design"
+msgstr ""
+
+#: includes/settings-array.php:113
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/settings-array.php:119
+msgid "Use the plugin's buttons"
+msgstr ""
+
+#: includes/settings-array.php:122
+msgid ""
+"By default the plugin tries to use the theme's design for the buttons. If this "
+"fails, enable this option in order to use the plugin's button style"
+msgstr ""
+
+#: includes/settings-array.php:129 includes/settings-array.php:131
+msgid "Login"
+msgstr "Login"
+
+#: includes/settings-array.php:135 includes/settings-array.php:137
+msgid "Billing"
+msgstr "Rechnung"
+
+#: includes/settings-array.php:141 includes/settings-array.php:143
+msgid "Shipping"
+msgstr "Versand"
+
+#: includes/settings-array.php:147 includes/settings-array.php:149
+msgid "Order"
+msgstr "Bestellung"
+
+#: includes/settings-array.php:159
+msgid "Back to cart"
+msgstr "Zurück zum Warenkorb"
+
+#: includes/settings-array.php:161
+msgctxt "Frontend: button label"
+msgid "Back to cart"
+msgstr "Zurück zum Warenkorb"
+
+#: includes/settings-array.php:165
+msgid "Skip Login"
+msgstr "Login überspringen"
+
+#: includes/settings-array.php:167
+msgctxt "Frontend: button label"
+msgid "Skip Login"
+msgstr "Login überspringen"
+
+#: includes/settings-array.php:171
+msgid "Previous"
+msgstr "Zurück"
+
+#: includes/settings-array.php:173
+msgctxt "Frontend: button label"
+msgid "Previous"
+msgstr "Zurück"
+
+#: includes/settings-array.php:177
+msgid "Next"
+msgstr "Weiter"
+
+#: includes/settings-array.php:179
+msgctxt "Frontend: button label"
+msgid "Next"
+msgstr "Weiter"
+
+#: includes/settings-array.php:183 includes/settings-array.php:185
+msgid "Please fix the errors on this step before moving to the next step"
+msgstr ""
+"Bitte beheben Sie die Fehler in diesem Schritt, bevor Sie mit dem nächsten "
+"Schritt fortfahren"
+
+#: includes/settings-array.php:187
+msgid "This is an error message shown in the frontend"
+msgstr ""
+
+#: includes/settings-array.php:191
+msgid "Use WPML to translate the text on the Steps and Buttons"
+msgstr ""
+
+#: includes/settings-array.php:195
+msgid ""
+"For a multilingual website the translations from WPML will be used instead of "
+"the ones in this form"
+msgstr ""
+
+#: wp-multi-step-checkout-pro.php:355
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/admin-side.php:118
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin-side.php:119
+msgid "Design"
+msgstr ""
+
+#: includes/admin-side.php:120
+msgid "Text on Steps and Buttons"
+msgstr ""
+
+#: includes/admin-side.php:121
+#: includes/admin-side.php:122
+msgid "License"
+msgstr ""
+
+#: includes/admin-side.php:318
+msgid ""
+"You are free to uninstall the free version of the <b>WooCommerce Multi-Step "
+"Checkout</b> plugin, if you want."
+msgstr ""
+
+#: includes/admin-side.php:324
+msgid ""
+"Currently the <b>OceanWP theme</b> is overriding the steps on the checkout page. "
+"If you want to use the steps from the <b>Multi-Step Checkout Pro for "
+"WooCommerce</b> plugin, then you need to disable the \"Multi-Step Checkout\" "
+"option on the <b>WP Admin -> Customize -> WooCommerce Checkout</b> page."
+msgstr ""
+
+#: includes/admin-side.php:332
+msgid ""
+"When using the <b>Multi-Step Checkout Pro for WooCommerce</b> plugin with the "
+"<b>Avada</b> theme, if you notice some design issues, try changing the "
+"<b>WooCommerce One Page Checkout</b> option to <b>OFF</b> on the <a "
+"href=\"themes.php?page=avada_options\">WP Admin -> Avada -> Theme Options -> "
+"WooCommerce</a>, as shown in <a "
+"href=\"https://www.silkypress.com/wp-content/uploads/2019/02/avada-one-page-checkout.png\" "
+"target=\"_blank\">this screenshot</a>."
+msgstr ""
+
+#: includes/admin-side.php:339
+msgid ""
+"The Suki theme adds some HTML elements to the checkout page in order to create "
+"the two columns. This additional HTML messes up the steps from the multi-step "
+"checkout plugin. Unfortunately the multi-step checkout plugin isn't compatibile "
+"with the Suki theme."
+msgstr ""
+
+#: includes/admin-side.php:345
+msgid ""
+"The \"Deactivate German Market Hooks\" option on the <b>WP Admin -> WooCommerce -> "
+"German Market -> Ordering</b> page will interfere with the proper working of the "
+"<b>Multi-Step Checkout Pro for WooCommerce</b> plugin. Please consider turning "
+"the option off."
+msgstr ""
+
+#. translators: 1: Woocommerce Accounts URL 2: Screenshot URL.
+#: includes/settings-array.php:40
+msgid ""
+"If you want to remove the login step, then make sure you have the \"Enable "
+"customer registration on the Checkout page\" checked and the \"Display returning "
+"customer login reminder on the Checkout page\" unchecked on the <a href=\"%1$s\">WP "
+"Admin -> WooCommerce -> Settings -> Accounts</a> page. See <a href=\"%2$s\" "
+"target=\"_blank\">this screenshot</a>."
+msgstr ""
+
+#. translators: 1: Woocommerce Accounts URL 2: Screenshot URL.
+#: includes/settings-array.php:80
+msgid ""
+"Use the \"Account creation\" options on the <a href=\"%1$s\">WP Admin -> WooCommerce "
+"-> Settings -> Accounts & Privacy</a> page to modify the Registration form. See "
+"<a href=\"%2$s\" target=\"_blank\">this screenshot</a>."
+msgstr ""
+
+#: includes/settings-array.php:92
+msgid "Add \"Address Review\" to the <code>Order</code> section"
+msgstr ""
+
+#: includes/settings-array.php:128
+msgid "Change the URL for each step"
+msgstr ""
+
+#: includes/settings-array.php:129
+msgid ""
+"Each step will have a hash added to the URL. For example &quot;#login&quot; or "
+"&quot;#billing&quot;. This option, together with some &quot;History Change "
+"Trigger&quot; settings in the Google Tag Manager, allows Google Analytics to "
+"track each step as different pages."
+msgstr ""
+
+#: includes/settings-array.php:164
+msgid "Show a \"check\" sign for visited steps"
+msgstr ""
+
+#: includes/settings-array.php:171
+msgid "Visited steps color"
+msgstr ""
+
+#: includes/settings-array.php:234
+#: includes/settings-array.php:236
+msgid "Billing address review"
+msgstr ""
+
+#: includes/settings-array.php:241
+#: includes/settings-array.php:243
+msgid "Shipping address review"
+msgstr ""
+
+#: includes/settings-array.php:256
+msgid "AND sign"
+msgstr ""
+
+msgid ""
+"The <b>Multi-Step Checkout Pro for WooCommerce </b> plugin is enabled, but it "
+"requires WooCommerce in order to work."
+msgstr ""
+
+#: wp-multi-step-checkout-pro.php:369
+msgid "View plugin's settings"
+msgstr ""

@@ -49,6 +49,8 @@ $calculator_text          = '';
 							<div class="wc-shipping-method-styles">
 								<?php
 								if ( $method->id == 'local_pickup:3' ) {
+
+									echo '<div class="wc-shipping-method-styles">';
 									
 									if ( 1 < count( $available_methods ) ) {
 										printf( '<input type="radio" name="shipping_method[%1$d]" data-index="%1$d" id="shipping_method_%1$d_%2$s" value="%3$s" class="shipping_method" %4$s />', $index, esc_attr( sanitize_title( $method->id ) ), esc_attr( $method->id ), checked( $method->id, $chosen_method, false ) ); // WPCS: XSS ok.
@@ -58,9 +60,13 @@ $calculator_text          = '';
 									printf( '<label for="shipping_method_%1$s_%2$s">%3$s</label>', $index, esc_attr( sanitize_title( $method->id ) ), wc_cart_totals_shipping_method_label( $method ) ); // WPCS: XSS ok.
 									do_action( 'woocommerce_after_shipping_rate', $method, $index );
 									echo '<p class="shipping-method-description">Przygotowanie do odbioru osobistego zajmie 21 godz. 40 min</p>';
+
+									echo '</div>';
 								}
 								
 								if ( $method->id == 'flexible_shipping_single:4' ) {
+
+									echo '<div class="wc-shipping-method-styles">';
 									
 									if ( 1 < count( $available_methods ) ) {
 										printf( '<input type="radio" name="shipping_method[%1$d]" data-index="%1$d" id="shipping_method_%1$d_%2$s" value="%3$s" class="shipping_method" %4$s />', $index, esc_attr( sanitize_title( $method->id ) ), esc_attr( $method->id ), checked( $method->id, $chosen_method, false ) ); // WPCS: XSS ok.
@@ -68,7 +74,9 @@ $calculator_text          = '';
 										printf( '<input type="hidden" name="shipping_method[%1$d]" data-index="%1$d" id="shipping_method_%1$d_%2$s" value="%3$s" class="shipping_method" />', $index, esc_attr( sanitize_title( $method->id ) ), esc_attr( $method->id ) ); // WPCS: XSS ok.
 									}
 									printf( '<label for="shipping_method_%1$s_%2$s">%3$s</label>', $index, esc_attr( sanitize_title( $method->id ) ), wc_cart_totals_shipping_method_label( $method ) ); // WPCS: XSS ok.
-									do_action( 'woocommerce_after_shipping_rate', $method, $index );									
+									do_action( 'woocommerce_after_shipping_rate', $method, $index );
+									
+									echo '</div>';
 								}
 
 								?>
@@ -81,9 +89,11 @@ $calculator_text          = '';
 					<p><strong>Płatność przy odbiorze</strong></p>
 					
 						<?php foreach ( $available_methods as $method ) : ?>
-							<div class="wc-shipping-method-styles">
+							
 								<?php
 								if ( $method->id == 'local_pickup:7' ) {
+
+									echo '<div class="wc-shipping-method-styles">';
 									
 									if ( 1 < count( $available_methods ) ) {
 										printf( '<input type="radio" name="shipping_method[%1$d]" data-index="%1$d" id="shipping_method_%1$d_%2$s" value="%3$s" class="shipping_method" %4$s />', $index, esc_attr( sanitize_title( $method->id ) ), esc_attr( $method->id ), checked( $method->id, $chosen_method, false ) ); // WPCS: XSS ok.
@@ -93,9 +103,13 @@ $calculator_text          = '';
 									printf( '<label for="shipping_method_%1$s_%2$s">%3$s</label>', $index, esc_attr( sanitize_title( $method->id ) ), wc_cart_totals_shipping_method_label( $method ) ); // WPCS: XSS ok.
 									do_action( 'woocommerce_after_shipping_rate', $method, $index );
 									echo '<p class="shipping-method-description">Przygotowanie do odbioru osobistego zajmie 21 godz. 40 min</p>';
+
+									echo '</div>';
 								}
 
 								if ( $method->id == 'flexible_shipping_single:6' ) {
+
+									echo '<div class="wc-shipping-method-styles">';
 									
 									if ( 1 < count( $available_methods ) ) {
 										printf( '<input type="radio" name="shipping_method[%1$d]" data-index="%1$d" id="shipping_method_%1$d_%2$s" value="%3$s" class="shipping_method" %4$s />', $index, esc_attr( sanitize_title( $method->id ) ), esc_attr( $method->id ), checked( $method->id, $chosen_method, false ) ); // WPCS: XSS ok.
@@ -103,11 +117,12 @@ $calculator_text          = '';
 										printf( '<input type="hidden" name="shipping_method[%1$d]" data-index="%1$d" id="shipping_method_%1$d_%2$s" value="%3$s" class="shipping_method" />', $index, esc_attr( sanitize_title( $method->id ) ), esc_attr( $method->id ) ); // WPCS: XSS ok.
 									}
 									printf( '<label for="shipping_method_%1$s_%2$s">%3$s</label>', $index, esc_attr( sanitize_title( $method->id ) ), wc_cart_totals_shipping_method_label( $method ) ); // WPCS: XSS ok.
-									do_action( 'woocommerce_after_shipping_rate', $method, $index );							
+									do_action( 'woocommerce_after_shipping_rate', $method, $index );		
+									
+									echo '</div>';
 								}
 
-								?>
-							</div>
+								?>							
 						<?php endforeach; ?>
 				
 				</div>
